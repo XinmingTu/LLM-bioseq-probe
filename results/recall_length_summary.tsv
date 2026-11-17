@@ -1,6 +1,6 @@
 model	>= 20	>= 50	>= 100	>= 200	longest
-claude-opus-5-5	67	43	24	13	305
-claude-opus-5	36	23	14	10	325
+claude-opus-5-5	71	46	27	15	314
+claude-opus-5	37	23	14	10	325
 claude-opus-4-8	26	17	11	9	264
 gemini-4-carbon	74	42	23	16	201
 gemini-3.8-flash	41	18	3	1	204

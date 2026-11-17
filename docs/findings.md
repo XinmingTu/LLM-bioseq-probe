@@ -28,7 +28,7 @@ of, no relative at 90% identity), Claude Opus 5.5 gets the next amino acid right
 time, against 7.5% on the same residues shuffled and 5% for a blind guess: a gap of 27.4
 points (95% CI 24.7 to 30.0, sign-flip permutation p < 0.0001).
 
-- The gap appears in 95% of families (median 25 points); the 10 largest families give 14% of it.
+- The gap appears in 94% of families (median 25 points); the 10 largest families give 14% of it.
 - It grows with family size (Spearman 0.27, p = 0.0002): 22 points for families of 300-1k
   proteins, 37 for families over 10k. In the 128 families with zero Europe PMC hits it is
   26.8 points and still grows with size (rho 0.28, p = 0.001); it does not track paper counts
@@ -39,7 +39,7 @@ points (95% CI 24.7 to 30.0, sign-flip permutation p < 0.0001).
 - It is not the prompt: asking Opus 5.5 to copy the sequence and continue gives the same result.
 - It is not recall of UniProt pages: entries on uniprot.org before 2023 and entries added from
   June 2025 score alike (37.2 vs 37.6 points, pilot).
-- Exact recall of these obscure proteins is weak: 12 cuts continued 10/10 where 0.56 are
+- Exact recall of these obscure proteins is weak: 12 cuts continued 10/10 where 0.57 are
   expected from per-position accuracy; re-asked for 200 residues, Opus 5.5 rarely goes past 10.
   It learned the families' statistics more than each protein's letters.
 
@@ -74,7 +74,7 @@ the FASTA text. Absence of a signal does not prove absence of training data.
 
 On well-studied vertebrate proteins most models do well (Gemini 4 Carbon +47.6 points, Opus
 4.8 to 5.5 +44 to +52), and several recite hundreds of residues letter for letter (Opus 5
-longest 325, Opus 5.5 305, Gemini 4 Carbon 201). These sequences fill papers and web pages.
+longest 325, Opus 5.5 314, Gemini 4 Carbon 201). These sequences fill papers and web pages.
 GPT models are the exception: GPT-5.5's longest exact run on these proteins is 2 residues.
 
 ## DNA: coding sequence only
@@ -107,3 +107,13 @@ changes with alignment depth. A [post by Atharv Jayprakash](https://x.com/atharv
 found GPT-6 Astra ranking SOD1 variants about as well as ESM-2. Variant ranking can draw on
 biology and the literature; the test here removes that route, and GPT-6 shows almost no
 sequence knowledge on it.
+
+## Replication and parsing
+
+- Replies are read with `bioseq_probe.probe.parse` (the last stated sequence; words, lists and
+  thinking tags skipped; a restated prefix removed). Re-reading every archived reply with it
+  instead of the earlier last-line reader moves no main-set gap by more than 0.1 point and no
+  family-size bin by more than 0.4; Opus 5.5's longest recitation becomes 314 (was 305).
+- ProGen3-3B was also run independently on one H200: +32.3 (29.1 to 35.4) against +32.5 on
+  Modal, with the same top residue on 97.7% of questions. The rest is run-to-run variation in
+  ProGen3's RMSNorm kernel, which picks a launch configuration per process.

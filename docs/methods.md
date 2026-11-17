@@ -33,7 +33,7 @@
   neither.
 - **Settings:** temperature 0 where accepted; thinking off where possible, else at its lowest
   level (`bioseq_probe.providers.MODELS`). One sample per question, no tools.
-- **Refusals and non-answers** are excluded and counted. Claude Opus 5.5 left 1% unanswered;
+- **Refusals and non-answers** are excluded and counted. Claude Opus 5.5 left 0.1% unanswered;
   counting them as wrong moves its gap by under 1 point.
 
 ## DNA
