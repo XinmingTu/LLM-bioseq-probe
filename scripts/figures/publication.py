@@ -20,7 +20,7 @@ from bioseq_probe.figstyle import ACCENT, ACCENT_TEXT, GREY, GRID, INK, LIGHT_GR
 LABEL = {"claude-opus-4-5-20251101": "Claude Opus 4.5", "claude-opus-4-6": "Claude Opus 4.6", "claude-opus-4-7": "Claude Opus 4.7", "claude-opus-4-8": "Claude Opus 4.8", "claude-opus-5": "Claude Opus 5",
          "claude-opus-5-5": "Claude Opus 5.5", "claude-fable-5-2": "Claude Fable 5.2", "claude-fable-5-1": "Claude Fable 5.1", "gpt-5.5": "GPT-5.5", "gpt-6-astra": "GPT-6 Astra", "gemini-4-carbon": "Gemini 4 Carbon",
          "claude-sonnet-4-5-20250929": "Claude Sonnet 4.5", "gemini-3.5-flash": "Gemini 3.5 Flash", "gemini-3.8-flash": "Gemini 3.8 Flash",
-         "gpt-6.1-sol": "GPT-6.1 Sol"}
+         "gpt-6.1-sol": "GPT-6.1 Sol", "gpt-6.2-sol": "GPT-6.2 Sol", "gpt-6.2-astra": "GPT-6.2 Astra"}
 
 
 def forest(ax, rows, y_of, xlabel):
@@ -44,7 +44,7 @@ plm = pd.read_csv("results/plm_summary.tsv", sep="\t").query("mode == 'prefix'")
 groups = [
     ("Anthropic", [("claude-fable-5-2", "chat"), ("claude-opus-5-5", "chat"), ("claude-fable-5-1", "chat"), ("claude-opus-5", "chat"), ("claude-opus-4-8", "chat"), ("claude-opus-4-7", "chat"),
                    ("claude-opus-4-6", "chat"), ("claude-opus-4-5-20251101", "chat")]),
-    ("OpenAI", [("gpt-6.1-sol", "chat"), ("gpt-6-astra", "chat"), ("gpt-5.5", "chat")]),
+    ("OpenAI", [("gpt-6.2-sol", "chat"), ("gpt-6.2-astra", "chat"), ("gpt-6.1-sol", "chat"), ("gpt-6-astra", "chat"), ("gpt-5.5", "chat")]),
     ("Google", [("gemini-4-carbon", "chat"), ("Gemini 2.5 Pro (raw)", "raw")]),
     ("Open-weight", [(n, "raw") for n in raw.name if n.endswith("(raw)") and not n.startswith(("Gemini", "Claude"))]),
 ]
@@ -68,7 +68,7 @@ for g, members in groups:
         y_of[name] = y
         y -= 1
     y -= 0.35
-fig, ax = plt.subplots(figsize=(4.6, 4.95))
+fig, ax = plt.subplots(figsize=(4.6, 5.35))
 forest(ax, rows, y_of, "Next amino acid: real minus shuffled accuracy (percentage points)")
 ax.set_yticks(list(y_of.values()), list(y_of.keys()))
 for t, m in zip(ax.get_yticklabels(), y_of):
@@ -84,7 +84,7 @@ ax.legend(handles=[Line2D([], [], marker="o", ls="", color=GREY, ms=4.2, label="
                    Line2D([], [], marker="o", ls="", color=GREY, mfc="white", ms=4.2, mew=1.0, label="LLM, raw continuation"),
                    ],
           loc="lower right", handletextpad=0.4)
-header(fig, ax, "Of 20 language models, only the latest Claude models predict little-studied proteins",
+header(fig, ax, "Of 22 language models, only the latest Claude models predict little-studied proteins",
        "668 bacterial and archaeal proteins from 167 unknown-function (DUF) families, no relative at ≥90% identity;\n"
        "points: mean over families, bars: 95% bootstrap CI. Raw continuation: completion endpoint or prefilled reply.\n"
        "Claude Sonnet 4.5 refused 97% of prefill requests (not shown).")
@@ -127,7 +127,7 @@ save(fig, "fig6_protein_lm")
 from bioseq_probe.probe import cut_off, parse, parse_raw, shown_prefix  # noqa: E402
 
 CHAT = ["claude-fable-5-2", "claude-opus-5-5", "claude-fable-5-1", "claude-opus-5", "claude-opus-4-8", "claude-opus-4-7", "claude-opus-4-6", "claude-opus-4-5-20251101",
-        "gpt-6.1-sol", "gpt-6-astra", "gpt-5.5", "gemini-4-carbon"]
+        "gpt-6.2-sol", "gpt-6.2-astra", "gpt-6.1-sol", "gpt-6-astra", "gpt-5.5", "gemini-4-carbon"]
 RAW = {"gemini-2.5-pro": "Gemini 2.5 Pro", "deepseek-v4p1-flash": "DeepSeek V4.1 Flash", "qwen3p8-2p4t-a95b": "Qwen 3.8",
        "kimi-k3p1-pro": "Kimi K3.1 Pro", "glm-5p3": "GLM-5.3", "minimax-m3": "MiniMax M3", "gpt-oss-120b": "gpt-oss-120b",
        "nemotron-3-ultra-nvfp4": "Nemotron 3 Ultra"}
@@ -425,6 +425,6 @@ SETS5 = ("Next amino acid on 257 DUF families: 90 from 20 to 300 proteins, 30 pe
 EARLIER = ("claude-opus-4-5-20251101", "claude-opus-4-6", "claude-opus-4-7", "claude-opus-4-8", "claude-opus-5", "claude-fable-5-1")
 family_size_figure([*EARLIER, "claude-opus-5-5", "claude-fable-5-2", *PLM5], "fig5_family_size",
                    "The bigger the protein family, the better the latest Claude models, as for a protein language model",
-                   SETS5 + "\nThin lines: earlier Claude models; grey: GPT-6.1 Sol, GPT-6 Astra, GPT-5.5 and Gemini 4 Carbon.", (5.2, 3.4), 1.25,
-                   faint=EARLIER, background=("gpt-6.1-sol", "gpt-6-astra", "gpt-5.5", "gemini-4-carbon"), background_label="GPT and Gemini")
+                   SETS5 + "\nThin lines: earlier Claude models; grey: GPT-6.2 Sol and Astra, GPT-6.1 Sol, GPT-6 Astra, GPT-5.5 and Gemini 4 Carbon.", (5.2, 3.4), 1.25,
+                   faint=EARLIER, background=("gpt-6.2-sol", "gpt-6.2-astra", "gpt-6.1-sol", "gpt-6-astra", "gpt-5.5", "gemini-4-carbon"), background_label="GPT and Gemini")
 print("figures/fig1_protein, fig2_dna, fig3_known_vs_obscure, fig4_recall, fig5_family_size, fig6_protein_lm, fig7_by_position, fig8_runs")

@@ -18,7 +18,7 @@ LIGHT_GREY = "#D3D7DF"
 ACCENT = "#D97757"  # Anthropic
 ACCENT_TEXT = "#B4532F"  # the same hue, dark enough for text
 OPENAI = "#4B4B55"
-GPT = {"GPT-6.1 Sol": "#2C2C33", "GPT-6 Astra": OPENAI, "GPT-5.5": "#7C7C87"}  # newer darker
+GPT = {"GPT-6.2 Sol": "#18181C", "GPT-6.2 Astra": "#33333B", "GPT-6.1 Sol": OPENAI, "GPT-6 Astra": "#63636E", "GPT-5.5": "#7C7C87"}  # newer darker
 GOOGLE = "#4285F4"
 PROTEIN_LM = "#9B59B6"  # protein language models, drawn as diamonds
 CLAUDE = {  # older generations lighter
@@ -70,7 +70,8 @@ THEME = {  # light hex: (variable, dark value)
     "#1d2433": ("ink", "#e6e8ee"), "#6b7385": ("muted", "#a0a8b8"), "#eceef2": ("grid", "#30353f"),
     "#a3aab8": ("grey", "#7d8596"), "#d3d7df": ("light", "#4a505c"), "#ffffff": ("bg", "var(--global-bg-color, #1c1c1d)"),
     "#b4532f": ("accent-text", "#eda48a"),
-    "#2c2c33": ("gpt-61", "#ececf1"), "#4b4b55": ("gpt-6", "#c2c2cc"), "#7c7c87": ("gpt-55", "#8e8e9a"),
+    "#18181c": ("gpt-62s", "#f2f2f6"), "#33333b": ("gpt-62a", "#d4d4dc"), "#4b4b55": ("gpt-61", "#c2c2cc"),
+    "#63636e": ("gpt-6", "#a9a9b4"), "#7c7c87": ("gpt-55", "#8e8e9a"),
     "#f6dfd4": ("c-s45", "#5e3e31"), "#f3d3c4": ("c-o45", "#6a4535"), "#efc1ab": ("c-o46", "#7d4f3b"),
     "#eaad92": ("c-o47", "#925a41"), "#e59c7d": ("c-o48", "#a86548"), "#df8a68": ("c-o5", "#bf6f4e"),
     "#c0694c": ("c-f51", "#e8906c"), "#9c3a1c": ("c-f52", "#ffb08a"),

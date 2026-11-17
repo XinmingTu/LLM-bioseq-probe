@@ -12,6 +12,7 @@ PRICE = {
     "claude-opus-5-5": (4, 20), "claude-fable-5-2": (8, 40), "claude-fable-5-1": (10, 50), "claude-fable-5": (10, 50), "claude-opus-5": (5, 25), "claude-opus-4-6": (5, 25), "claude-opus-4-8": (5, 25), "claude-opus-4-7": (5, 25), "claude-opus-4-5-20251101": (5, 25), "claude-sonnet-4-5-20250929": (3, 15),
     "gpt-4o-2024-11-20": (2.5, 10), "gpt-4.1-2025-04-14": (2, 8),
     "gpt-5.5": (5, 30), "gpt-6.1-sol": (2, 10), "gpt-6-astra": (10, 50),
+    "gpt-6.2-sol": (2, 10), "gpt-6.2-astra": (10, 50),  # list prices not checked; assumed equal to 6.1 Sol and 6 Astra
     "gemini-2.5-pro": (1.25, 10), "gemini-3.5-flash": (1, 6), "gemini-3.8-flash": (1, 6), "gemini-4-carbon": (5, 30),  # flash/4 ASSUMED
 }
 PRICE.update({  # Fireworks serverless, fireworks.ai/pricing (2026-11-16); Qwen 3.8 2.4T priced as Qwen 3.8 Max

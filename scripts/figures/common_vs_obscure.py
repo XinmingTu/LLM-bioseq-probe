@@ -17,7 +17,7 @@ import pandas as pd
 
 from bioseq_probe.probe import cut_off, parse, shown_prefix
 
-LABEL = {"gpt-4o-2024-11-20": "GPT-4o", "gpt-4.1-2025-04-14": "GPT-4.1", "gpt-5.5": "GPT-5.5", "gpt-6.1-sol": "GPT-6.1 Sol", "gpt-6-astra": "GPT-6 Astra",
+LABEL = {"gpt-4o-2024-11-20": "GPT-4o", "gpt-4.1-2025-04-14": "GPT-4.1", "gpt-5.5": "GPT-5.5", "gpt-6.2-sol": "GPT-6.2 Sol", "gpt-6.2-astra": "GPT-6.2 Astra", "gpt-6.1-sol": "GPT-6.1 Sol", "gpt-6-astra": "GPT-6 Astra",
          "claude-sonnet-4-5-20250929": "Claude Sonnet 4.5", "claude-opus-4-6": "Claude Opus 4.6", "claude-opus-4-8": "Claude Opus 4.8",
          "claude-opus-5": "Claude Opus 5", "claude-opus-5-5": "Claude Opus 5.5", "claude-fable-5-1": "Claude Fable 5.1", "claude-fable-5-2": "Claude Fable 5.2", "gemini-2.5-pro": "Gemini 2.5 Pro", "gemini-3.5-flash": "Gemini 3.5 Flash",
          "gemini-3.8-flash": "Gemini 3.8 Flash", "gemini-4-carbon": "Gemini 4 Carbon", "deepseek-v4p1-flash": "DeepSeek V4.1 Flash",

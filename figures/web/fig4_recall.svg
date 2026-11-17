@@ -3,7 +3,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-17T07:59:18.308160</dc:date>
+    <dc:date>2026-11-17T18:27:47.394759</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -304,7 +304,7 @@ L 183.575272 174.325051
 L 183.575272 162.432767 
 L 183.575272 162.432767 
 z
-" clip-path="url(#fig4_recall-pb9840587b1)" style="fill: var(--fig-gpt-61, #2c2c33); stroke: var(--fig-bg, #ffffff); stroke-width: 0.4; stroke-linejoin: miter"/>
+" clip-path="url(#fig4_recall-pb9840587b1)" style="fill: var(--fig-gpt-61, #4b4b55); stroke: var(--fig-bg, #ffffff); stroke-width: 0.4; stroke-linejoin: miter"/>
    </g>
    <g id="fig4_recall-patch_20">
     <path d="M 183.575272 155.143948 
@@ -398,7 +398,7 @@ L 360.67496 155.714936
 L 360.67496 151.164936 
 L 347.67496 151.164936 
 z
-" style="fill: var(--fig-gpt-61, #2c2c33); stroke: var(--fig-bg, #ffffff); stroke-width: 0.4; stroke-linejoin: miter"/>
+" style="fill: var(--fig-gpt-61, #4b4b55); stroke: var(--fig-bg, #ffffff); stroke-width: 0.4; stroke-linejoin: miter"/>
     </g>
     <g id="fig4_recall-text_23">
      <text style="font-size: 6.5px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="363.27496" y="155.714936" transform="rotate(-0 363.27496 155.714936)">exact run ≥ 200 residues</text>

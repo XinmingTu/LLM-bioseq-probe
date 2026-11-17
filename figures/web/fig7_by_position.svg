@@ -3,7 +3,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-17T07:59:16.515091</dc:date>
+    <dc:date>2026-11-17T18:27:45.431391</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -591,9 +591,9 @@ L 233.884244 181.757546
 L 256.429699 180.56837 
 L 278.975153 185.891333 
 L 301.520608 188.777499 
-" clip-path="url(#fig7_by_position-pa0d56cbabc)" style="fill: none; stroke: var(--fig-gpt-6, #4b4b55); stroke-linecap: square"/>
+" clip-path="url(#fig7_by_position-pa0d56cbabc)" style="fill: none; stroke: var(--fig-gpt-6, #63636e); stroke-linecap: square"/>
     <defs>
-     <path id="fig7_by_position-m16201bbfbb" d="M 0 1.1 
+     <path id="fig7_by_position-m98a4a6a448" d="M 0 1.1 
 C 0.291723 1.1 0.571538 0.984097 0.777817 0.777817 
 C 0.984097 0.571538 1.1 0.291723 1.1 0 
 C 1.1 -0.291723 0.984097 -0.571538 0.777817 -0.777817 
@@ -603,19 +603,19 @@ C -0.984097 -0.571538 -1.1 -0.291723 -1.1 0
 C -1.1 0.291723 -0.984097 0.571538 -0.777817 0.777817 
 C -0.571538 0.984097 -0.291723 1.1 0 1.1 
 z
-" style="stroke: var(--fig-gpt-6, #4b4b55)"/>
+" style="stroke: var(--fig-gpt-6, #63636e)"/>
     </defs>
     <g clip-path="url(#fig7_by_position-pa0d56cbabc)">
-     <use xlink:href="#fig7_by_position-m16201bbfbb" x="98.611517" y="175.89048" style="fill: var(--fig-gpt-6, #4b4b55); stroke: var(--fig-gpt-6, #4b4b55)"/>
-     <use xlink:href="#fig7_by_position-m16201bbfbb" x="121.156972" y="182.18648" style="fill: var(--fig-gpt-6, #4b4b55); stroke: var(--fig-gpt-6, #4b4b55)"/>
-     <use xlink:href="#fig7_by_position-m16201bbfbb" x="143.702426" y="179.942723" style="fill: var(--fig-gpt-6, #4b4b55); stroke: var(--fig-gpt-6, #4b4b55)"/>
-     <use xlink:href="#fig7_by_position-m16201bbfbb" x="166.247881" y="180.354341" style="fill: var(--fig-gpt-6, #4b4b55); stroke: var(--fig-gpt-6, #4b4b55)"/>
-     <use xlink:href="#fig7_by_position-m16201bbfbb" x="188.793335" y="182.441832" style="fill: var(--fig-gpt-6, #4b4b55); stroke: var(--fig-gpt-6, #4b4b55)"/>
-     <use xlink:href="#fig7_by_position-m16201bbfbb" x="211.33879" y="183.932721" style="fill: var(--fig-gpt-6, #4b4b55); stroke: var(--fig-gpt-6, #4b4b55)"/>
-     <use xlink:href="#fig7_by_position-m16201bbfbb" x="233.884244" y="181.757546" style="fill: var(--fig-gpt-6, #4b4b55); stroke: var(--fig-gpt-6, #4b4b55)"/>
-     <use xlink:href="#fig7_by_position-m16201bbfbb" x="256.429699" y="180.56837" style="fill: var(--fig-gpt-6, #4b4b55); stroke: var(--fig-gpt-6, #4b4b55)"/>
-     <use xlink:href="#fig7_by_position-m16201bbfbb" x="278.975153" y="185.891333" style="fill: var(--fig-gpt-6, #4b4b55); stroke: var(--fig-gpt-6, #4b4b55)"/>
-     <use xlink:href="#fig7_by_position-m16201bbfbb" x="301.520608" y="188.777499" style="fill: var(--fig-gpt-6, #4b4b55); stroke: var(--fig-gpt-6, #4b4b55)"/>
+     <use xlink:href="#fig7_by_position-m98a4a6a448" x="98.611517" y="175.89048" style="fill: var(--fig-gpt-6, #63636e); stroke: var(--fig-gpt-6, #63636e)"/>
+     <use xlink:href="#fig7_by_position-m98a4a6a448" x="121.156972" y="182.18648" style="fill: var(--fig-gpt-6, #63636e); stroke: var(--fig-gpt-6, #63636e)"/>
+     <use xlink:href="#fig7_by_position-m98a4a6a448" x="143.702426" y="179.942723" style="fill: var(--fig-gpt-6, #63636e); stroke: var(--fig-gpt-6, #63636e)"/>
+     <use xlink:href="#fig7_by_position-m98a4a6a448" x="166.247881" y="180.354341" style="fill: var(--fig-gpt-6, #63636e); stroke: var(--fig-gpt-6, #63636e)"/>
+     <use xlink:href="#fig7_by_position-m98a4a6a448" x="188.793335" y="182.441832" style="fill: var(--fig-gpt-6, #63636e); stroke: var(--fig-gpt-6, #63636e)"/>
+     <use xlink:href="#fig7_by_position-m98a4a6a448" x="211.33879" y="183.932721" style="fill: var(--fig-gpt-6, #63636e); stroke: var(--fig-gpt-6, #63636e)"/>
+     <use xlink:href="#fig7_by_position-m98a4a6a448" x="233.884244" y="181.757546" style="fill: var(--fig-gpt-6, #63636e); stroke: var(--fig-gpt-6, #63636e)"/>
+     <use xlink:href="#fig7_by_position-m98a4a6a448" x="256.429699" y="180.56837" style="fill: var(--fig-gpt-6, #63636e); stroke: var(--fig-gpt-6, #63636e)"/>
+     <use xlink:href="#fig7_by_position-m98a4a6a448" x="278.975153" y="185.891333" style="fill: var(--fig-gpt-6, #63636e); stroke: var(--fig-gpt-6, #63636e)"/>
+     <use xlink:href="#fig7_by_position-m98a4a6a448" x="301.520608" y="188.777499" style="fill: var(--fig-gpt-6, #63636e); stroke: var(--fig-gpt-6, #63636e)"/>
     </g>
    </g>
    <g id="fig7_by_position-line2d_34">
@@ -629,9 +629,9 @@ L 233.884244 186.894388
 L 256.429699 182.560574 
 L 278.975153 182.894295 
 L 301.520608 189.292704 
-" clip-path="url(#fig7_by_position-pa0d56cbabc)" style="fill: none; stroke: var(--fig-gpt-61, #2c2c33); stroke-linecap: square"/>
+" clip-path="url(#fig7_by_position-pa0d56cbabc)" style="fill: none; stroke: var(--fig-gpt-61, #4b4b55); stroke-linecap: square"/>
     <defs>
-     <path id="fig7_by_position-m4e572de13f" d="M 0 1.1 
+     <path id="fig7_by_position-m16201bbfbb" d="M 0 1.1 
 C 0.291723 1.1 0.571538 0.984097 0.777817 0.777817 
 C 0.984097 0.571538 1.1 0.291723 1.1 0 
 C 1.1 -0.291723 0.984097 -0.571538 0.777817 -0.777817 
@@ -641,22 +641,98 @@ C -0.984097 -0.571538 -1.1 -0.291723 -1.1 0
 C -1.1 0.291723 -0.984097 0.571538 -0.777817 0.777817 
 C -0.571538 0.984097 -0.291723 1.1 0 1.1 
 z
-" style="stroke: var(--fig-gpt-61, #2c2c33)"/>
+" style="stroke: var(--fig-gpt-61, #4b4b55)"/>
     </defs>
     <g clip-path="url(#fig7_by_position-pa0d56cbabc)">
-     <use xlink:href="#fig7_by_position-m4e572de13f" x="98.611517" y="182.968302" style="fill: var(--fig-gpt-61, #2c2c33); stroke: var(--fig-gpt-61, #2c2c33)"/>
-     <use xlink:href="#fig7_by_position-m4e572de13f" x="121.156972" y="182.577971" style="fill: var(--fig-gpt-61, #2c2c33); stroke: var(--fig-gpt-61, #2c2c33)"/>
-     <use xlink:href="#fig7_by_position-m4e572de13f" x="143.702426" y="178.564347" style="fill: var(--fig-gpt-61, #2c2c33); stroke: var(--fig-gpt-61, #2c2c33)"/>
-     <use xlink:href="#fig7_by_position-m4e572de13f" x="166.247881" y="181.621959" style="fill: var(--fig-gpt-61, #2c2c33); stroke: var(--fig-gpt-61, #2c2c33)"/>
-     <use xlink:href="#fig7_by_position-m4e572de13f" x="188.793335" y="180.73153" style="fill: var(--fig-gpt-61, #2c2c33); stroke: var(--fig-gpt-61, #2c2c33)"/>
-     <use xlink:href="#fig7_by_position-m4e572de13f" x="211.33879" y="183.393979" style="fill: var(--fig-gpt-61, #2c2c33); stroke: var(--fig-gpt-61, #2c2c33)"/>
-     <use xlink:href="#fig7_by_position-m4e572de13f" x="233.884244" y="186.894388" style="fill: var(--fig-gpt-61, #2c2c33); stroke: var(--fig-gpt-61, #2c2c33)"/>
-     <use xlink:href="#fig7_by_position-m4e572de13f" x="256.429699" y="182.560574" style="fill: var(--fig-gpt-61, #2c2c33); stroke: var(--fig-gpt-61, #2c2c33)"/>
-     <use xlink:href="#fig7_by_position-m4e572de13f" x="278.975153" y="182.894295" style="fill: var(--fig-gpt-61, #2c2c33); stroke: var(--fig-gpt-61, #2c2c33)"/>
-     <use xlink:href="#fig7_by_position-m4e572de13f" x="301.520608" y="189.292704" style="fill: var(--fig-gpt-61, #2c2c33); stroke: var(--fig-gpt-61, #2c2c33)"/>
+     <use xlink:href="#fig7_by_position-m16201bbfbb" x="98.611517" y="182.968302" style="fill: var(--fig-gpt-61, #4b4b55); stroke: var(--fig-gpt-61, #4b4b55)"/>
+     <use xlink:href="#fig7_by_position-m16201bbfbb" x="121.156972" y="182.577971" style="fill: var(--fig-gpt-61, #4b4b55); stroke: var(--fig-gpt-61, #4b4b55)"/>
+     <use xlink:href="#fig7_by_position-m16201bbfbb" x="143.702426" y="178.564347" style="fill: var(--fig-gpt-61, #4b4b55); stroke: var(--fig-gpt-61, #4b4b55)"/>
+     <use xlink:href="#fig7_by_position-m16201bbfbb" x="166.247881" y="181.621959" style="fill: var(--fig-gpt-61, #4b4b55); stroke: var(--fig-gpt-61, #4b4b55)"/>
+     <use xlink:href="#fig7_by_position-m16201bbfbb" x="188.793335" y="180.73153" style="fill: var(--fig-gpt-61, #4b4b55); stroke: var(--fig-gpt-61, #4b4b55)"/>
+     <use xlink:href="#fig7_by_position-m16201bbfbb" x="211.33879" y="183.393979" style="fill: var(--fig-gpt-61, #4b4b55); stroke: var(--fig-gpt-61, #4b4b55)"/>
+     <use xlink:href="#fig7_by_position-m16201bbfbb" x="233.884244" y="186.894388" style="fill: var(--fig-gpt-61, #4b4b55); stroke: var(--fig-gpt-61, #4b4b55)"/>
+     <use xlink:href="#fig7_by_position-m16201bbfbb" x="256.429699" y="182.560574" style="fill: var(--fig-gpt-61, #4b4b55); stroke: var(--fig-gpt-61, #4b4b55)"/>
+     <use xlink:href="#fig7_by_position-m16201bbfbb" x="278.975153" y="182.894295" style="fill: var(--fig-gpt-61, #4b4b55); stroke: var(--fig-gpt-61, #4b4b55)"/>
+     <use xlink:href="#fig7_by_position-m16201bbfbb" x="301.520608" y="189.292704" style="fill: var(--fig-gpt-61, #4b4b55); stroke: var(--fig-gpt-61, #4b4b55)"/>
     </g>
    </g>
    <g id="fig7_by_position-line2d_35">
+    <path d="M 98.611517 181.506435 
+L 121.156972 182.484525 
+L 143.702426 183.897458 
+L 166.247881 183.551946 
+L 188.793335 183.220272 
+L 211.33879 184.028885 
+L 233.884244 184.927439 
+L 256.429699 185.022875 
+L 278.975153 186.212821 
+L 301.520608 182.015793 
+" clip-path="url(#fig7_by_position-pa0d56cbabc)" style="fill: none; stroke: var(--fig-gpt-62a, #33333b); stroke-linecap: square"/>
+    <defs>
+     <path id="fig7_by_position-mfbf5d1fe93" d="M 0 1.1 
+C 0.291723 1.1 0.571538 0.984097 0.777817 0.777817 
+C 0.984097 0.571538 1.1 0.291723 1.1 0 
+C 1.1 -0.291723 0.984097 -0.571538 0.777817 -0.777817 
+C 0.571538 -0.984097 0.291723 -1.1 0 -1.1 
+C -0.291723 -1.1 -0.571538 -0.984097 -0.777817 -0.777817 
+C -0.984097 -0.571538 -1.1 -0.291723 -1.1 0 
+C -1.1 0.291723 -0.984097 0.571538 -0.777817 0.777817 
+C -0.571538 0.984097 -0.291723 1.1 0 1.1 
+z
+" style="stroke: var(--fig-gpt-62a, #33333b)"/>
+    </defs>
+    <g clip-path="url(#fig7_by_position-pa0d56cbabc)">
+     <use xlink:href="#fig7_by_position-mfbf5d1fe93" x="98.611517" y="181.506435" style="fill: var(--fig-gpt-62a, #33333b); stroke: var(--fig-gpt-62a, #33333b)"/>
+     <use xlink:href="#fig7_by_position-mfbf5d1fe93" x="121.156972" y="182.484525" style="fill: var(--fig-gpt-62a, #33333b); stroke: var(--fig-gpt-62a, #33333b)"/>
+     <use xlink:href="#fig7_by_position-mfbf5d1fe93" x="143.702426" y="183.897458" style="fill: var(--fig-gpt-62a, #33333b); stroke: var(--fig-gpt-62a, #33333b)"/>
+     <use xlink:href="#fig7_by_position-mfbf5d1fe93" x="166.247881" y="183.551946" style="fill: var(--fig-gpt-62a, #33333b); stroke: var(--fig-gpt-62a, #33333b)"/>
+     <use xlink:href="#fig7_by_position-mfbf5d1fe93" x="188.793335" y="183.220272" style="fill: var(--fig-gpt-62a, #33333b); stroke: var(--fig-gpt-62a, #33333b)"/>
+     <use xlink:href="#fig7_by_position-mfbf5d1fe93" x="211.33879" y="184.028885" style="fill: var(--fig-gpt-62a, #33333b); stroke: var(--fig-gpt-62a, #33333b)"/>
+     <use xlink:href="#fig7_by_position-mfbf5d1fe93" x="233.884244" y="184.927439" style="fill: var(--fig-gpt-62a, #33333b); stroke: var(--fig-gpt-62a, #33333b)"/>
+     <use xlink:href="#fig7_by_position-mfbf5d1fe93" x="256.429699" y="185.022875" style="fill: var(--fig-gpt-62a, #33333b); stroke: var(--fig-gpt-62a, #33333b)"/>
+     <use xlink:href="#fig7_by_position-mfbf5d1fe93" x="278.975153" y="186.212821" style="fill: var(--fig-gpt-62a, #33333b); stroke: var(--fig-gpt-62a, #33333b)"/>
+     <use xlink:href="#fig7_by_position-mfbf5d1fe93" x="301.520608" y="182.015793" style="fill: var(--fig-gpt-62a, #33333b); stroke: var(--fig-gpt-62a, #33333b)"/>
+    </g>
+   </g>
+   <g id="fig7_by_position-line2d_36">
+    <path d="M 98.611517 177.285418 
+L 121.156972 184.778657 
+L 143.702426 182.714748 
+L 166.247881 184.615671 
+L 188.793335 181.70942 
+L 211.33879 182.743915 
+L 233.884244 185.703214 
+L 256.429699 182.906667 
+L 278.975153 188.574285 
+L 301.520608 186.573642 
+" clip-path="url(#fig7_by_position-pa0d56cbabc)" style="fill: none; stroke: var(--fig-gpt-62s, #18181c); stroke-linecap: square"/>
+    <defs>
+     <path id="fig7_by_position-m043426c1ba" d="M 0 1.1 
+C 0.291723 1.1 0.571538 0.984097 0.777817 0.777817 
+C 0.984097 0.571538 1.1 0.291723 1.1 0 
+C 1.1 -0.291723 0.984097 -0.571538 0.777817 -0.777817 
+C 0.571538 -0.984097 0.291723 -1.1 0 -1.1 
+C -0.291723 -1.1 -0.571538 -0.984097 -0.777817 -0.777817 
+C -0.984097 -0.571538 -1.1 -0.291723 -1.1 0 
+C -1.1 0.291723 -0.984097 0.571538 -0.777817 0.777817 
+C -0.571538 0.984097 -0.291723 1.1 0 1.1 
+z
+" style="stroke: var(--fig-gpt-62s, #18181c)"/>
+    </defs>
+    <g clip-path="url(#fig7_by_position-pa0d56cbabc)">
+     <use xlink:href="#fig7_by_position-m043426c1ba" x="98.611517" y="177.285418" style="fill: var(--fig-gpt-62s, #18181c); stroke: var(--fig-gpt-62s, #18181c)"/>
+     <use xlink:href="#fig7_by_position-m043426c1ba" x="121.156972" y="184.778657" style="fill: var(--fig-gpt-62s, #18181c); stroke: var(--fig-gpt-62s, #18181c)"/>
+     <use xlink:href="#fig7_by_position-m043426c1ba" x="143.702426" y="182.714748" style="fill: var(--fig-gpt-62s, #18181c); stroke: var(--fig-gpt-62s, #18181c)"/>
+     <use xlink:href="#fig7_by_position-m043426c1ba" x="166.247881" y="184.615671" style="fill: var(--fig-gpt-62s, #18181c); stroke: var(--fig-gpt-62s, #18181c)"/>
+     <use xlink:href="#fig7_by_position-m043426c1ba" x="188.793335" y="181.70942" style="fill: var(--fig-gpt-62s, #18181c); stroke: var(--fig-gpt-62s, #18181c)"/>
+     <use xlink:href="#fig7_by_position-m043426c1ba" x="211.33879" y="182.743915" style="fill: var(--fig-gpt-62s, #18181c); stroke: var(--fig-gpt-62s, #18181c)"/>
+     <use xlink:href="#fig7_by_position-m043426c1ba" x="233.884244" y="185.703214" style="fill: var(--fig-gpt-62s, #18181c); stroke: var(--fig-gpt-62s, #18181c)"/>
+     <use xlink:href="#fig7_by_position-m043426c1ba" x="256.429699" y="182.906667" style="fill: var(--fig-gpt-62s, #18181c); stroke: var(--fig-gpt-62s, #18181c)"/>
+     <use xlink:href="#fig7_by_position-m043426c1ba" x="278.975153" y="188.574285" style="fill: var(--fig-gpt-62s, #18181c); stroke: var(--fig-gpt-62s, #18181c)"/>
+     <use xlink:href="#fig7_by_position-m043426c1ba" x="301.520608" y="186.573642" style="fill: var(--fig-gpt-62s, #18181c); stroke: var(--fig-gpt-62s, #18181c)"/>
+    </g>
+   </g>
+   <g id="fig7_by_position-line2d_37">
     <path d="M 98.611517 178.945289 
 L 121.156972 183.57292 
 L 143.702426 180.92856 
@@ -694,7 +770,7 @@ z
      <use xlink:href="#fig7_by_position-m48b1a6be4a" x="301.520608" y="185.933957" style="fill: var(--fig-c-o45, #f3d3c4); stroke: var(--fig-c-o45, #f3d3c4)"/>
     </g>
    </g>
-   <g id="fig7_by_position-line2d_36">
+   <g id="fig7_by_position-line2d_38">
     <path d="M 98.611517 181.967416 
 L 121.156972 183.57292 
 L 143.702426 185.933957 
@@ -732,7 +808,7 @@ z
      <use xlink:href="#fig7_by_position-m3830e0b239" x="301.520608" y="184.611777" style="fill: var(--fig-c-o46, #efc1ab); stroke: var(--fig-c-o46, #efc1ab)"/>
     </g>
    </g>
-   <g id="fig7_by_position-line2d_37">
+   <g id="fig7_by_position-line2d_39">
     <path d="M 98.611517 156.751545 
 L 121.156972 166.856782 
 L 143.702426 168.556728 
@@ -770,7 +846,7 @@ z
      <use xlink:href="#fig7_by_position-m377de88435" x="301.520608" y="178.850847" style="fill: var(--fig-c-o47, #eaad92); stroke: var(--fig-c-o47, #eaad92)"/>
     </g>
    </g>
-   <g id="fig7_by_position-line2d_38">
+   <g id="fig7_by_position-line2d_40">
     <path d="M 98.611517 160.597688 
 L 121.156972 168.578267 
 L 143.702426 171.693179 
@@ -808,7 +884,7 @@ z
      <use xlink:href="#fig7_by_position-m685107c473" x="301.520608" y="177.19177" style="fill: var(--fig-c-o48, #e59c7d); stroke: var(--fig-c-o48, #e59c7d)"/>
     </g>
    </g>
-   <g id="fig7_by_position-line2d_39">
+   <g id="fig7_by_position-line2d_41">
     <path d="M 98.611517 154.695524 
 L 121.156972 163.63023 
 L 143.702426 164.186304 
@@ -846,7 +922,7 @@ z
      <use xlink:href="#fig7_by_position-m6c6b6bf528" x="301.520608" y="171.354715" style="fill: var(--fig-c-o5, #df8a68); stroke: var(--fig-c-o5, #df8a68)"/>
     </g>
    </g>
-   <g id="fig7_by_position-line2d_40">
+   <g id="fig7_by_position-line2d_42">
     <path d="M 98.611517 137.798676 
 L 121.156972 161.377186 
 L 143.702426 170.72624 
@@ -884,7 +960,7 @@ z
      <use xlink:href="#fig7_by_position-m78c040d8fa" x="301.520608" y="173.2991" style="fill: var(--fig-c-f51, #c0694c); stroke: var(--fig-c-f51, #c0694c)"/>
     </g>
    </g>
-   <g id="fig7_by_position-line2d_41">
+   <g id="fig7_by_position-line2d_43">
     <path d="M 88.466063 184.895101 
 L 311.666063 184.895101 
 " clip-path="url(#fig7_by_position-pa0d56cbabc)" style="fill: none; stroke: var(--fig-muted, #6b7385); stroke-width: 0.6; stroke-linecap: square"/>
@@ -894,7 +970,7 @@ L 311.666063 184.895101
 L 311.666063 203.82117 
 " style="fill: none; stroke: var(--fig-muted, #6b7385); stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
-   <g id="fig7_by_position-line2d_42">
+   <g id="fig7_by_position-line2d_44">
     <path d="M 98.611517 98.446369 
 L 121.156972 108.104251 
 L 143.702426 114.978596 
@@ -932,7 +1008,7 @@ z
      <use xlink:href="#fig7_by_position-m98a3087b80" x="301.520608" y="126.589925" style="fill: #d97757; stroke: #d97757"/>
     </g>
    </g>
-   <g id="fig7_by_position-line2d_43">
+   <g id="fig7_by_position-line2d_45">
     <path d="M 98.611517 42.676753 
 L 121.156972 45.814308 
 L 143.702426 52.047445 
@@ -971,180 +1047,204 @@ z
     </g>
    </g>
    <g id="fig7_by_position-legend_1">
-    <g id="fig7_by_position-line2d_44">
-     <path d="M 319.118063 64.37158 
-L 324.918063 64.37158 
-L 330.718063 64.37158 
+    <g id="fig7_by_position-line2d_46">
+     <path d="M 319.118063 57.072416 
+L 324.918063 57.072416 
+L 330.718063 57.072416 
 " style="fill: none; stroke: var(--fig-c-f52, #9c3a1c); stroke-width: 1.8; stroke-linecap: square"/>
      <g>
-      <use xlink:href="#fig7_by_position-mfed1d0a3bf" x="324.918063" y="64.37158" style="fill: var(--fig-c-f52, #9c3a1c); stroke: var(--fig-c-f52, #9c3a1c)"/>
+      <use xlink:href="#fig7_by_position-mfed1d0a3bf" x="324.918063" y="57.072416" style="fill: var(--fig-c-f52, #9c3a1c); stroke: var(--fig-c-f52, #9c3a1c)"/>
      </g>
     </g>
     <g id="fig7_by_position-text_19">
-     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="66.40158" transform="rotate(-0 332.458062 66.40158)">Claude Fable 5.2</text>
+     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="59.102416" transform="rotate(-0 332.458062 59.102416)">Claude Fable 5.2</text>
     </g>
-    <g id="fig7_by_position-line2d_45">
-     <path d="M 319.118063 71.670744 
-L 324.918063 71.670744 
-L 330.718063 71.670744 
+    <g id="fig7_by_position-line2d_47">
+     <path d="M 319.118063 64.37158 
+L 324.918063 64.37158 
+L 330.718063 64.37158 
 " style="fill: none; stroke: #d97757; stroke-width: 1.8; stroke-linecap: square"/>
      <g>
-      <use xlink:href="#fig7_by_position-m98a3087b80" x="324.918063" y="71.670744" style="fill: #d97757; stroke: #d97757"/>
+      <use xlink:href="#fig7_by_position-m98a3087b80" x="324.918063" y="64.37158" style="fill: #d97757; stroke: #d97757"/>
      </g>
     </g>
     <g id="fig7_by_position-text_20">
-     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="73.700744" transform="rotate(-0 332.458062 73.700744)">Claude Opus 5.5</text>
+     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="66.40158" transform="rotate(-0 332.458062 66.40158)">Claude Opus 5.5</text>
     </g>
-    <g id="fig7_by_position-line2d_46">
-     <path d="M 319.118063 78.969908 
-L 324.918063 78.969908 
-L 330.718063 78.969908 
+    <g id="fig7_by_position-line2d_48">
+     <path d="M 319.118063 71.670744 
+L 324.918063 71.670744 
+L 330.718063 71.670744 
 " style="fill: none; stroke: var(--fig-c-f51, #c0694c); stroke-linecap: square"/>
      <g>
-      <use xlink:href="#fig7_by_position-m78c040d8fa" x="324.918063" y="78.969908" style="fill: var(--fig-c-f51, #c0694c); stroke: var(--fig-c-f51, #c0694c)"/>
+      <use xlink:href="#fig7_by_position-m78c040d8fa" x="324.918063" y="71.670744" style="fill: var(--fig-c-f51, #c0694c); stroke: var(--fig-c-f51, #c0694c)"/>
      </g>
     </g>
     <g id="fig7_by_position-text_21">
-     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="80.999908" transform="rotate(-0 332.458062 80.999908)">Claude Fable 5.1</text>
+     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="73.700744" transform="rotate(-0 332.458062 73.700744)">Claude Fable 5.1</text>
     </g>
-    <g id="fig7_by_position-line2d_47">
-     <path d="M 319.118063 86.269072 
-L 324.918063 86.269072 
-L 330.718063 86.269072 
+    <g id="fig7_by_position-line2d_49">
+     <path d="M 319.118063 78.969908 
+L 324.918063 78.969908 
+L 330.718063 78.969908 
 " style="fill: none; stroke: var(--fig-c-o5, #df8a68); stroke-linecap: square"/>
      <g>
-      <use xlink:href="#fig7_by_position-m6c6b6bf528" x="324.918063" y="86.269072" style="fill: var(--fig-c-o5, #df8a68); stroke: var(--fig-c-o5, #df8a68)"/>
+      <use xlink:href="#fig7_by_position-m6c6b6bf528" x="324.918063" y="78.969908" style="fill: var(--fig-c-o5, #df8a68); stroke: var(--fig-c-o5, #df8a68)"/>
      </g>
     </g>
     <g id="fig7_by_position-text_22">
-     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="88.299072" transform="rotate(-0 332.458062 88.299072)">Claude Opus 5</text>
+     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="80.999908" transform="rotate(-0 332.458062 80.999908)">Claude Opus 5</text>
     </g>
-    <g id="fig7_by_position-line2d_48">
-     <path d="M 319.118063 93.568236 
-L 324.918063 93.568236 
-L 330.718063 93.568236 
+    <g id="fig7_by_position-line2d_50">
+     <path d="M 319.118063 86.269072 
+L 324.918063 86.269072 
+L 330.718063 86.269072 
 " style="fill: none; stroke: var(--fig-c-o48, #e59c7d); stroke-linecap: square"/>
      <g>
-      <use xlink:href="#fig7_by_position-m685107c473" x="324.918063" y="93.568236" style="fill: var(--fig-c-o48, #e59c7d); stroke: var(--fig-c-o48, #e59c7d)"/>
+      <use xlink:href="#fig7_by_position-m685107c473" x="324.918063" y="86.269072" style="fill: var(--fig-c-o48, #e59c7d); stroke: var(--fig-c-o48, #e59c7d)"/>
      </g>
     </g>
     <g id="fig7_by_position-text_23">
-     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="95.598236" transform="rotate(-0 332.458062 95.598236)">Claude Opus 4.8</text>
+     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="88.299072" transform="rotate(-0 332.458062 88.299072)">Claude Opus 4.8</text>
     </g>
-    <g id="fig7_by_position-line2d_49">
-     <path d="M 319.118063 100.8674 
-L 324.918063 100.8674 
-L 330.718063 100.8674 
+    <g id="fig7_by_position-line2d_51">
+     <path d="M 319.118063 93.568236 
+L 324.918063 93.568236 
+L 330.718063 93.568236 
 " style="fill: none; stroke: var(--fig-c-o47, #eaad92); stroke-linecap: square"/>
      <g>
-      <use xlink:href="#fig7_by_position-m377de88435" x="324.918063" y="100.8674" style="fill: var(--fig-c-o47, #eaad92); stroke: var(--fig-c-o47, #eaad92)"/>
+      <use xlink:href="#fig7_by_position-m377de88435" x="324.918063" y="93.568236" style="fill: var(--fig-c-o47, #eaad92); stroke: var(--fig-c-o47, #eaad92)"/>
      </g>
     </g>
     <g id="fig7_by_position-text_24">
-     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="102.8974" transform="rotate(-0 332.458062 102.8974)">Claude Opus 4.7</text>
+     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="95.598236" transform="rotate(-0 332.458062 95.598236)">Claude Opus 4.7</text>
     </g>
-    <g id="fig7_by_position-line2d_50">
-     <path d="M 319.118063 108.166564 
-L 324.918063 108.166564 
-L 330.718063 108.166564 
+    <g id="fig7_by_position-line2d_52">
+     <path d="M 319.118063 100.8674 
+L 324.918063 100.8674 
+L 330.718063 100.8674 
 " style="fill: none; stroke: var(--fig-c-o46, #efc1ab); stroke-linecap: square"/>
      <g>
-      <use xlink:href="#fig7_by_position-m3830e0b239" x="324.918063" y="108.166564" style="fill: var(--fig-c-o46, #efc1ab); stroke: var(--fig-c-o46, #efc1ab)"/>
+      <use xlink:href="#fig7_by_position-m3830e0b239" x="324.918063" y="100.8674" style="fill: var(--fig-c-o46, #efc1ab); stroke: var(--fig-c-o46, #efc1ab)"/>
      </g>
     </g>
     <g id="fig7_by_position-text_25">
-     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="110.196564" transform="rotate(-0 332.458062 110.196564)">Claude Opus 4.6</text>
+     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="102.8974" transform="rotate(-0 332.458062 102.8974)">Claude Opus 4.6</text>
     </g>
-    <g id="fig7_by_position-line2d_51">
-     <path d="M 319.118063 115.465729 
-L 324.918063 115.465729 
-L 330.718063 115.465729 
+    <g id="fig7_by_position-line2d_53">
+     <path d="M 319.118063 108.166564 
+L 324.918063 108.166564 
+L 330.718063 108.166564 
 " style="fill: none; stroke: var(--fig-c-o45, #f3d3c4); stroke-linecap: square"/>
      <g>
-      <use xlink:href="#fig7_by_position-m48b1a6be4a" x="324.918063" y="115.465729" style="fill: var(--fig-c-o45, #f3d3c4); stroke: var(--fig-c-o45, #f3d3c4)"/>
+      <use xlink:href="#fig7_by_position-m48b1a6be4a" x="324.918063" y="108.166564" style="fill: var(--fig-c-o45, #f3d3c4); stroke: var(--fig-c-o45, #f3d3c4)"/>
      </g>
     </g>
     <g id="fig7_by_position-text_26">
-     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="117.495729" transform="rotate(-0 332.458062 117.495729)">Claude Opus 4.5</text>
+     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="110.196564" transform="rotate(-0 332.458062 110.196564)">Claude Opus 4.5</text>
     </g>
-    <g id="fig7_by_position-line2d_52">
-     <path d="M 319.118063 122.764893 
-L 324.918063 122.764893 
-L 330.718063 122.764893 
-" style="fill: none; stroke: var(--fig-gpt-61, #2c2c33); stroke-linecap: square"/>
+    <g id="fig7_by_position-line2d_54">
+     <path d="M 319.118063 115.465729 
+L 324.918063 115.465729 
+L 330.718063 115.465729 
+" style="fill: none; stroke: var(--fig-gpt-62s, #18181c); stroke-linecap: square"/>
      <g>
-      <use xlink:href="#fig7_by_position-m4e572de13f" x="324.918063" y="122.764893" style="fill: var(--fig-gpt-61, #2c2c33); stroke: var(--fig-gpt-61, #2c2c33)"/>
+      <use xlink:href="#fig7_by_position-m043426c1ba" x="324.918063" y="115.465729" style="fill: var(--fig-gpt-62s, #18181c); stroke: var(--fig-gpt-62s, #18181c)"/>
      </g>
     </g>
     <g id="fig7_by_position-text_27">
-     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="124.794893" transform="rotate(-0 332.458062 124.794893)">GPT-6.1 Sol</text>
+     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="117.495729" transform="rotate(-0 332.458062 117.495729)">GPT-6.2 Sol</text>
     </g>
-    <g id="fig7_by_position-line2d_53">
-     <path d="M 319.118063 130.064057 
-L 324.918063 130.064057 
-L 330.718063 130.064057 
-" style="fill: none; stroke: var(--fig-gpt-6, #4b4b55); stroke-linecap: square"/>
+    <g id="fig7_by_position-line2d_55">
+     <path d="M 319.118063 122.764893 
+L 324.918063 122.764893 
+L 330.718063 122.764893 
+" style="fill: none; stroke: var(--fig-gpt-62a, #33333b); stroke-linecap: square"/>
      <g>
-      <use xlink:href="#fig7_by_position-m16201bbfbb" x="324.918063" y="130.064057" style="fill: var(--fig-gpt-6, #4b4b55); stroke: var(--fig-gpt-6, #4b4b55)"/>
+      <use xlink:href="#fig7_by_position-mfbf5d1fe93" x="324.918063" y="122.764893" style="fill: var(--fig-gpt-62a, #33333b); stroke: var(--fig-gpt-62a, #33333b)"/>
      </g>
     </g>
     <g id="fig7_by_position-text_28">
-     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="132.094057" transform="rotate(-0 332.458062 132.094057)">GPT-6 Astra</text>
+     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="124.794893" transform="rotate(-0 332.458062 124.794893)">GPT-6.2 Astra</text>
     </g>
-    <g id="fig7_by_position-line2d_54">
-     <path d="M 319.118063 137.363221 
-L 324.918063 137.363221 
-L 330.718063 137.363221 
-" style="fill: none; stroke: var(--fig-gpt-55, #7c7c87); stroke-linecap: square"/>
+    <g id="fig7_by_position-line2d_56">
+     <path d="M 319.118063 130.064057 
+L 324.918063 130.064057 
+L 330.718063 130.064057 
+" style="fill: none; stroke: var(--fig-gpt-61, #4b4b55); stroke-linecap: square"/>
      <g>
-      <use xlink:href="#fig7_by_position-ma7295dd92b" x="324.918063" y="137.363221" style="fill: var(--fig-gpt-55, #7c7c87); stroke: var(--fig-gpt-55, #7c7c87)"/>
+      <use xlink:href="#fig7_by_position-m16201bbfbb" x="324.918063" y="130.064057" style="fill: var(--fig-gpt-61, #4b4b55); stroke: var(--fig-gpt-61, #4b4b55)"/>
      </g>
     </g>
     <g id="fig7_by_position-text_29">
-     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="139.393221" transform="rotate(-0 332.458062 139.393221)">GPT-5.5</text>
+     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="132.094057" transform="rotate(-0 332.458062 132.094057)">GPT-6.1 Sol</text>
     </g>
-    <g id="fig7_by_position-line2d_55">
-     <path d="M 319.118063 144.662385 
-L 324.918063 144.662385 
-L 330.718063 144.662385 
-" style="fill: none; stroke: #4285f4; stroke-linecap: square"/>
+    <g id="fig7_by_position-line2d_57">
+     <path d="M 319.118063 137.363221 
+L 324.918063 137.363221 
+L 330.718063 137.363221 
+" style="fill: none; stroke: var(--fig-gpt-6, #63636e); stroke-linecap: square"/>
      <g>
-      <use xlink:href="#fig7_by_position-m9bd16d9ba9" x="324.918063" y="144.662385" style="fill: #4285f4; stroke: #4285f4"/>
+      <use xlink:href="#fig7_by_position-m98a4a6a448" x="324.918063" y="137.363221" style="fill: var(--fig-gpt-6, #63636e); stroke: var(--fig-gpt-6, #63636e)"/>
      </g>
     </g>
     <g id="fig7_by_position-text_30">
-     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="146.692385" transform="rotate(-0 332.458062 146.692385)">Gemini 4 Carbon</text>
+     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="139.393221" transform="rotate(-0 332.458062 139.393221)">GPT-6 Astra</text>
     </g>
-    <g id="fig7_by_position-line2d_56">
-     <path d="M 319.118063 151.961549 
-L 324.918063 151.961549 
-L 330.718063 151.961549 
-" style="fill: none; stroke: #4285f4; stroke-width: 0.8; stroke-linecap: square"/>
+    <g id="fig7_by_position-line2d_58">
+     <path d="M 319.118063 144.662385 
+L 324.918063 144.662385 
+L 330.718063 144.662385 
+" style="fill: none; stroke: var(--fig-gpt-55, #7c7c87); stroke-linecap: square"/>
      <g>
-      <use xlink:href="#fig7_by_position-meae4542bb0" x="324.918063" y="151.961549" style="fill: var(--fig-bg, #ffffff); stroke: #4285f4"/>
+      <use xlink:href="#fig7_by_position-ma7295dd92b" x="324.918063" y="144.662385" style="fill: var(--fig-gpt-55, #7c7c87); stroke: var(--fig-gpt-55, #7c7c87)"/>
      </g>
     </g>
     <g id="fig7_by_position-text_31">
-     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="153.991549" transform="rotate(-0 332.458062 153.991549)">Gemini 2.5 Pro</text>
+     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="146.692385" transform="rotate(-0 332.458062 146.692385)">GPT-5.5</text>
     </g>
-    <g id="fig7_by_position-line2d_57">
-     <path d="M 319.118063 159.260713 
-L 324.918063 159.260713 
-L 330.718063 159.260713 
-" style="fill: none; stroke: var(--fig-grey, #a3aab8); stroke-width: 0.8; stroke-linecap: square"/>
+    <g id="fig7_by_position-line2d_59">
+     <path d="M 319.118063 151.961549 
+L 324.918063 151.961549 
+L 330.718063 151.961549 
+" style="fill: none; stroke: #4285f4; stroke-linecap: square"/>
      <g>
-      <use xlink:href="#fig7_by_position-mfc0512e7e1" x="324.918063" y="159.260713" style="fill: var(--fig-bg, #ffffff); stroke: var(--fig-grey, #a3aab8)"/>
+      <use xlink:href="#fig7_by_position-m9bd16d9ba9" x="324.918063" y="151.961549" style="fill: #4285f4; stroke: #4285f4"/>
      </g>
     </g>
     <g id="fig7_by_position-text_32">
-     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="161.290713" transform="rotate(-0 332.458062 161.290713)">7 open-weight models</text>
+     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="153.991549" transform="rotate(-0 332.458062 153.991549)">Gemini 4 Carbon</text>
+    </g>
+    <g id="fig7_by_position-line2d_60">
+     <path d="M 319.118063 159.260713 
+L 324.918063 159.260713 
+L 330.718063 159.260713 
+" style="fill: none; stroke: #4285f4; stroke-width: 0.8; stroke-linecap: square"/>
+     <g>
+      <use xlink:href="#fig7_by_position-meae4542bb0" x="324.918063" y="159.260713" style="fill: var(--fig-bg, #ffffff); stroke: #4285f4"/>
+     </g>
+    </g>
+    <g id="fig7_by_position-text_33">
+     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="161.290713" transform="rotate(-0 332.458062 161.290713)">Gemini 2.5 Pro</text>
+    </g>
+    <g id="fig7_by_position-line2d_61">
+     <path d="M 319.118063 166.559877 
+L 324.918063 166.559877 
+L 330.718063 166.559877 
+" style="fill: none; stroke: var(--fig-grey, #a3aab8); stroke-width: 0.8; stroke-linecap: square"/>
+     <g>
+      <use xlink:href="#fig7_by_position-mfc0512e7e1" x="324.918063" y="166.559877" style="fill: var(--fig-bg, #ffffff); stroke: var(--fig-grey, #a3aab8)"/>
+     </g>
+    </g>
+    <g id="fig7_by_position-text_34">
+     <text style="font-size: 5.8px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="332.458062" y="168.589877" transform="rotate(-0 332.458062 168.589877)">7 open-weight models</text>
     </g>
    </g>
   </g>
-  <g id="fig7_by_position-text_33">
+  <g id="fig7_by_position-text_35">
    <text style="font-weight: 700; font-size: 8.5px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; text-anchor: start; fill: var(--fig-ink, #1d2433)" x="52.466063" y="9.068232" transform="rotate(-0 52.466063 9.068232)">The latest Claude models keep their signal across all 10 residues they write</text>
   </g>
-  <g id="fig7_by_position-text_34">
+  <g id="fig7_by_position-text_36">
    <text style="font-size: 6.2px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; fill: var(--fig-muted, #6b7385)" transform="translate(67.203063 238.27304)">668 little-studied proteins; each position scored on its own (earlier positions need not be right); mean over 167 families,</text>
    <text style="font-size: 6.2px; font-family: Arial, 'Liberation Sans', Helvetica, sans-serif; fill: var(--fig-muted, #6b7385)" transform="translate(2.88 246.128089)">bands: 95% bootstrap CI for Fable 5.2 and Opus 5.5. Hollow points: raw continuation of the FASTA text (Gemini 2.5 Pro, open-weight models).</text>
   </g>
