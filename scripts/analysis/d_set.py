@@ -20,7 +20,7 @@ MAIN = pd.read_csv("data/confirm_sequences.tsv", sep="\t")
 SEQ = pd.concat([D, MAIN]).set_index("accession").sequence
 FAMILIES = set(D.pfam)
 NAMES = {"claude-fable-5-2": "Claude Fable 5.2", "claude-opus-5-5": "Claude Opus 5.5", "gpt-6.2-sol": "GPT-6.2 Sol",
-         "progen3-3b": "ProGen3-3B", "protgpt3-10B": "ProtGPT3-10B"}
+         "progen3-3b": "ProGen3-3B", "protgpt3-10B": "ProtGPT3-10B", "protxlstm-102M": "Prot-xLSTM 102M"}
 rng = np.random.default_rng(2026)
 
 

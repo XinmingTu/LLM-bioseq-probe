@@ -93,7 +93,7 @@ save(fig, "fig1_protein")
 # Fig 6: Claude Opus 5.5 against protein language models, same input ---------------------------
 cmp = [{"name": LABEL[k], "d": c.loc[k].D_points, "lo": c.loc[k].D_ci_low, "hi": c.loc[k].D_ci_high, "kind": "LLM, chat prompt"}
        for k in ("claude-fable-5-2", "claude-opus-5-5")]
-for key, r in plm.iterrows():
+for key, r in plm.drop(index=["protxlstm-102M"], errors="ignore").iterrows():  # Prot-xLSTM needs homolog context: Appendix C only
     kind = "reads left to right" if key.startswith(("protgpt", "progen")) else "masked model, reads both sides"
     cmp.append({"name": r["name"], "d": r.d, "lo": r.lo, "hi": r.hi, "kind": kind})
 cmp = sorted(cmp, key=lambda r: -r["d"])

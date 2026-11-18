@@ -127,6 +127,25 @@ def progen3(size: str):
     return logp
 
 
+def protxlstm():
+    """Prot-xLSTM 102M (Bio-xLSTM, ml-jku/Prot-xLSTM), autoregressive, one token per residue; read here
+    without homolog context: <cls> + the residues before the cut, positions from 0. Weights from
+    ml.jku.at; the mLSTM runs on its pure-PyTorch chunkwise backend."""
+    from protxlstm.models.xlstm import xLSTMLMHeadModel
+    from protxlstm.utils import AA_TO_ID, load_model
+
+    model = load_model("/ckpt/protxlstm_102M_60B", model_class=xLSTMLMHeadModel, device=DEVICE, dtype=torch.bfloat16,
+                       mlstm_backend="chunkwise_variable", mlstm_chunksize=1024, mlstm_return_last_state=True).eval()
+    ids = [AA_TO_ID[a] for a in AA]
+
+    def logp(seq: str, cut: int, mode: str):
+        x = torch.tensor([[AA_TO_ID["<cls>"]] + [AA_TO_ID[a] for a in seq[:cut]]], device=DEVICE)
+        pos = torch.arange(x.shape[1], device=DEVICE).unsqueeze(0)
+        return torch.log_softmax(model(input_ids=x, position_ids=pos).logits[0, -1, ids].float().cpu(), -1)
+
+    return logp
+
+
 def protgpt2():
     from transformers import AutoTokenizer, GPT2LMHeadModel
 
@@ -146,7 +165,7 @@ def protgpt2():
 
 LOADERS = {"esm2-650M": esm2, "esmc-600m": esmc, "esm3-open": esm3, "protgpt2": protgpt2,
            "protgpt3-1.3B": lambda: protgpt3("1.3B"), "protgpt3-10B": lambda: protgpt3("10B"),
-           "progen3-3b": lambda: progen3("3b")}
+           "progen3-3b": lambda: progen3("3b"), "protxlstm-102M": protxlstm}
 SANITY = {"ubiquitin": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
           "hemoglobin beta": "MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"}
 

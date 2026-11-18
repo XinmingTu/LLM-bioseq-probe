@@ -54,11 +54,31 @@ def run_progen3(spec: str, sequences: str, out: str) -> dict[str, str]:
     return run.local(spec, sequences, out)
 
 
+CKPT = "https://ml.jku.at/research/Bio-xLSTM/downloads/Prot-xLSTM/checkpoints/protxlstm_102M_60B"
+protxlstm_image = (  # inference needs only the package's xLSTM code, not mamba_ssm
+    modal.Image.debian_slim(python_version="3.11")
+    .apt_install("git", "wget")
+    .pip_install("torch==2.2.2", "transformers==4.44.2", "accelerate", "dacite", "omegaconf", "numpy<2", "pandas", "biopython", "rich", "wandb")
+    .run_commands("git clone --depth 1 https://github.com/ml-jku/Prot-xLSTM.git /opt/prot-xlstm",  # its setup installs only the top package
+                  f"mkdir -p /ckpt/protxlstm_102M_60B && cd /ckpt/protxlstm_102M_60B && wget -q {CKPT}/config.json {CKPT}/pytorch_model.bin")
+    .env({"PYTHONPATH": "/opt/prot-xlstm"})
+    .add_local_file("scripts/probe/protein_lm.py", "/work/protein_lm.py")
+    .add_local_file("data/confirm_sequences.tsv", "/work/data/confirm_sequences.tsv")
+    .add_local_file("data/small_family_sequences.tsv", "/work/data/small_family_sequences.tsv")
+    .add_local_file("data/d_set_sequences.tsv", "/work/data/d_set_sequences.tsv")
+)
+
+
+@app.function(image=protxlstm_image, gpu=["L40S", "A100", "A100-80GB", "H100"], timeout=3 * 3600)
+def run_protxlstm(spec: str, sequences: str, out: str) -> dict[str, str]:
+    return run.local(spec, sequences, out)
+
+
 @app.local_entrypoint()
 def main(runs: str, sequences: str = "data/confirm_sequences.tsv", out: str = "results/plm_confirm"):
     specs = runs.split(",")
     Path(out).mkdir(parents=True, exist_ok=True)
-    fn = run_progen3 if all(s.startswith("progen3") for s in specs) else run
+    fn = run_progen3 if all(s.startswith("progen3") for s in specs) else run_protxlstm if all(s.startswith("protxlstm") for s in specs) else run
     for files in fn.map(specs, [sequences] * len(specs), [out] * len(specs)):
         for name, text in files.items():
             (Path(out) / name).write_text(text)
