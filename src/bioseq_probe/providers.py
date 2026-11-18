@@ -65,9 +65,11 @@ def call(model: str, prompt: str, max_tokens: int = 4000) -> Reply:
 
 
 def _anthropic(model, prompt, max_tokens, cfg):
-    r = anthropic.Anthropic().messages.create(
+    # Streamed: the SDK refuses a non-streaming request whose max_tokens could take over 10 minutes.
+    with anthropic.Anthropic().messages.stream(
         model=model, max_tokens=max_tokens, messages=[{"role": "user", "content": prompt}], **cfg
-    )
+    ) as s:
+        r = s.get_final_message()
     text = "".join(b.text for b in r.content if b.type == "text")
     return Reply(text, r.stop_reason, usage=r.usage.model_dump())
 

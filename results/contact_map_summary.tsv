@@ -1,0 +1,169 @@
+set	model	protein	pdb	length	stop	well_formed	note	symmetric	range	n_pred	n_true	n_correct	n_pairs	precision	recall	baseline	enrichment
+famous	claude-opus-5-5	barrier-to-autointegration factor	1CI4	87	end_turn	False	87 0/1 lines (want 87), lengths [87, 89]		short		27		471			0.05732	
+famous	claude-opus-5-5	barrier-to-autointegration factor	1CI4	87	end_turn	False	87 0/1 lines (want 87), lengths [87, 89]		medium		38		834			0.04556	
+famous	claude-opus-5-5	barrier-to-autointegration factor	1CI4	87	end_turn	False	87 0/1 lines (want 87), lengths [87, 89]		long		66		2016			0.03274	
+famous	claude-opus-5-5	barrier-to-autointegration factor	1CI4	87	end_turn	False	87 0/1 lines (want 87), lengths [87, 89]		all		131		3321			0.03945	
+famous	claude-opus-5-5	ubiquitin	1UBQ	76	end_turn	True		False	short	14	28	10	405	0.7143	0.3571	0.06914	10.33
+famous	claude-opus-5-5	ubiquitin	1UBQ	76	end_turn	True		False	medium	11	30	4	702	0.3636	0.1333	0.04274	8.509
+famous	claude-opus-5-5	ubiquitin	1UBQ	76	end_turn	True		False	long	38	81	15	1378	0.3947	0.1852	0.05878	6.715
+famous	claude-opus-5-5	ubiquitin	1UBQ	76	end_turn	True		False	all	63	139	29	2485	0.4603	0.2086	0.05594	8.229
+famous	claude-opus-5-5	protein G B1 domain	1PGA	56	end_turn	False	56 0/1 lines (want 56), lengths [55]		short		25		285			0.08772	
+famous	claude-opus-5-5	protein G B1 domain	1PGA	56	end_turn	False	56 0/1 lines (want 56), lengths [55]		medium		37		462			0.08009	
+famous	claude-opus-5-5	protein G B1 domain	1PGA	56	end_turn	False	56 0/1 lines (want 56), lengths [55]		long		47		528			0.08902	
+famous	claude-opus-5-5	protein G B1 domain	1PGA	56	end_turn	False	56 0/1 lines (want 56), lengths [55]		all		109		1275			0.08549	
+famous	claude-opus-5-5	BPTI	5PTI	58	end_turn	True		False	short	9	15	8	297	0.8889	0.5333	0.05051	17.6
+famous	claude-opus-5-5	BPTI	5PTI	58	end_turn	True		False	medium	26	41	19	486	0.7308	0.4634	0.08436	8.662
+famous	claude-opus-5-5	BPTI	5PTI	58	end_turn	True		False	long	11	57	9	595	0.8182	0.1579	0.0958	8.541
+famous	claude-opus-5-5	BPTI	5PTI	58	end_turn	True		False	all	46	113	36	1378	0.7826	0.3186	0.082	9.544
+famous	claude-opus-5-5	spectrin SH3 domain	1SHG	57	end_turn	False	57 0/1 lines (want 57), lengths [58]		short		30		291			0.1031	
+famous	claude-opus-5-5	spectrin SH3 domain	1SHG	57	end_turn	False	57 0/1 lines (want 57), lengths [58]		medium		49		474			0.1034	
+famous	claude-opus-5-5	spectrin SH3 domain	1SHG	57	end_turn	False	57 0/1 lines (want 57), lengths [58]		long		51		561			0.09091	
+famous	claude-opus-5-5	spectrin SH3 domain	1SHG	57	end_turn	False	57 0/1 lines (want 57), lengths [58]		all		130		1326			0.09804	
+famous	claude-opus-5-5	thioredoxin	2TRX	108	end_turn	False	107 0/1 lines (want 108), lengths [108]		short		34		597			0.05695	
+famous	claude-opus-5-5	thioredoxin	2TRX	108	end_turn	False	107 0/1 lines (want 108), lengths [108]		medium		33		1086			0.03039	
+famous	claude-opus-5-5	thioredoxin	2TRX	108	end_turn	False	107 0/1 lines (want 108), lengths [108]		long		141		3570			0.0395	
+famous	claude-opus-5-5	thioredoxin	2TRX	108	end_turn	False	107 0/1 lines (want 108), lengths [108]		all		208		5253			0.0396	
+recent	claude-opus-5-5	HicA toxin, Leptotrichia wadei	9WYY	64	end_turn	True		False	short	34	28	0	333	0	0	0.08408	0
+recent	claude-opus-5-5	HicA toxin, Leptotrichia wadei	9WYY	64	end_turn	True		False	medium	18	34	0	558	0	0	0.06093	0
+recent	claude-opus-5-5	HicA toxin, Leptotrichia wadei	9WYY	64	end_turn	True		False	long	3	41	0	820	0	0	0.05	0
+recent	claude-opus-5-5	HicA toxin, Leptotrichia wadei	9WYY	64	end_turn	True		False	all	55	103	0	1711	0	0	0.0602	0
+recent	claude-opus-5-5	YbaB homolog, Streptococcus mutans	9YMS	80	end_turn	False	80 0/1 lines (want 80), lengths [79]		short		27		429			0.06294	
+recent	claude-opus-5-5	YbaB homolog, Streptococcus mutans	9YMS	80	end_turn	False	80 0/1 lines (want 80), lengths [79]		medium		37		750			0.04933	
+recent	claude-opus-5-5	YbaB homolog, Streptococcus mutans	9YMS	80	end_turn	False	80 0/1 lines (want 80), lengths [79]		long		56		1596			0.03509	
+recent	claude-opus-5-5	YbaB homolog, Streptococcus mutans	9YMS	80	end_turn	False	80 0/1 lines (want 80), lengths [79]		all		120		2775			0.04324	
+recent	claude-opus-5-5	anti-CRISPR AcrIIA17	23AA	104	end_turn	False	104 0/1 lines (want 104), lengths [112]		short		21		573			0.03665	
+recent	claude-opus-5-5	anti-CRISPR AcrIIA17	23AA	104	end_turn	False	104 0/1 lines (want 104), lengths [112]		medium		29		1038			0.02794	
+recent	claude-opus-5-5	anti-CRISPR AcrIIA17	23AA	104	end_turn	False	104 0/1 lines (want 104), lengths [112]		long		90		3240			0.02778	
+recent	claude-opus-5-5	anti-CRISPR AcrIIA17	23AA	104	end_turn	False	104 0/1 lines (want 104), lengths [112]		all		140		4851			0.02886	
+recent	claude-opus-5-5	lanmodulin, Ancylobacter novellus	39RI	114	end_turn	False	114 0/1 lines (want 114), lengths [114, 115]		short		36		633			0.05687	
+recent	claude-opus-5-5	lanmodulin, Ancylobacter novellus	39RI	114	end_turn	False	114 0/1 lines (want 114), lengths [114, 115]		medium		31		1158			0.02677	
+recent	claude-opus-5-5	lanmodulin, Ancylobacter novellus	39RI	114	end_turn	False	114 0/1 lines (want 114), lengths [114, 115]		long		99		4095			0.02418	
+recent	claude-opus-5-5	lanmodulin, Ancylobacter novellus	39RI	114	end_turn	False	114 0/1 lines (want 114), lengths [114, 115]		all		166		5886			0.0282	
+recent	claude-opus-5-5	peptidyl-tRNA hydrolase 2, Lokiarchaeum	24BT	119	end_turn	False	5 0/1 lines (want 119), lengths [118]		short		27		663			0.04072	
+recent	claude-opus-5-5	peptidyl-tRNA hydrolase 2, Lokiarchaeum	24BT	119	end_turn	False	5 0/1 lines (want 119), lengths [118]		medium		30		1218			0.02463	
+recent	claude-opus-5-5	peptidyl-tRNA hydrolase 2, Lokiarchaeum	24BT	119	end_turn	False	5 0/1 lines (want 119), lengths [118]		long		145		4560			0.0318	
+recent	claude-opus-5-5	peptidyl-tRNA hydrolase 2, Lokiarchaeum	24BT	119	end_turn	False	5 0/1 lines (want 119), lengths [118]		all		202		6441			0.03136	
+recent	claude-opus-5-5	VnOptE beta-barrel domain	37TF	129	max_tokens	False	1 0/1 lines (want 129), lengths [95999]		short		73		723			0.101	
+recent	claude-opus-5-5	VnOptE beta-barrel domain	37TF	129	max_tokens	False	1 0/1 lines (want 129), lengths [95999]		medium		119		1338			0.08894	
+recent	claude-opus-5-5	VnOptE beta-barrel domain	37TF	129	max_tokens	False	1 0/1 lines (want 129), lengths [95999]		long		123		5565			0.0221	
+recent	claude-opus-5-5	VnOptE beta-barrel domain	37TF	129	max_tokens	False	1 0/1 lines (want 129), lengths [95999]		all		315		7626			0.04131	
+famous	claude-fable-5-2	barrier-to-autointegration factor	1CI4	87	stop	True		False	short	47	27	0	471	0	0	0.05732	0
+famous	claude-fable-5-2	barrier-to-autointegration factor	1CI4	87	stop	True		False	medium	12	38	1	834	0.08333	0.02632	0.04556	1.829
+famous	claude-fable-5-2	barrier-to-autointegration factor	1CI4	87	stop	True		False	long	2	66	1	2016	0.5	0.01515	0.03274	15.27
+famous	claude-fable-5-2	barrier-to-autointegration factor	1CI4	87	stop	True		False	all	61	131	2	3321	0.03279	0.01527	0.03945	0.8312
+famous	claude-fable-5-2	ubiquitin	1UBQ	76	stop	True		False	short	25	28	13	405	0.52	0.4643	0.06914	7.521
+famous	claude-fable-5-2	ubiquitin	1UBQ	76	stop	True		False	medium	26	30	10	702	0.3846	0.3333	0.04274	9
+famous	claude-fable-5-2	ubiquitin	1UBQ	76	stop	True		False	long	60	81	34	1378	0.5667	0.4198	0.05878	9.64
+famous	claude-fable-5-2	ubiquitin	1UBQ	76	stop	True		False	all	111	139	57	2485	0.5135	0.4101	0.05594	9.18
+famous	claude-fable-5-2	protein G B1 domain	1PGA	56	stop	True		True	short	20	25	16	285	0.8	0.64	0.08772	9.12
+famous	claude-fable-5-2	protein G B1 domain	1PGA	56	stop	True		True	medium	25	37	21	462	0.84	0.5676	0.08009	10.49
+famous	claude-fable-5-2	protein G B1 domain	1PGA	56	stop	True		True	long	23	47	21	528	0.913	0.4468	0.08902	10.26
+famous	claude-fable-5-2	protein G B1 domain	1PGA	56	stop	True		True	all	68	109	58	1275	0.8529	0.5321	0.08549	9.977
+famous	claude-fable-5-2	BPTI	5PTI	58	stop	True		False	short	34	15	8	297	0.2353	0.5333	0.05051	4.659
+famous	claude-fable-5-2	BPTI	5PTI	58	stop	True		False	medium	89	41	25	486	0.2809	0.6098	0.08436	3.33
+famous	claude-fable-5-2	BPTI	5PTI	58	stop	True		False	long	56	57	25	595	0.4464	0.4386	0.0958	4.66
+famous	claude-fable-5-2	BPTI	5PTI	58	stop	True		False	all	179	113	58	1378	0.324	0.5133	0.082	3.951
+famous	claude-fable-5-2	spectrin SH3 domain	1SHG	57	stop	True		False	short	27	30	1	291	0.03704	0.03333	0.1031	0.3593
+famous	claude-fable-5-2	spectrin SH3 domain	1SHG	57	stop	True		False	medium	36	49	8	474	0.2222	0.1633	0.1034	2.15
+famous	claude-fable-5-2	spectrin SH3 domain	1SHG	57	stop	True		False	long	60	51	16	561	0.2667	0.3137	0.09091	2.933
+famous	claude-fable-5-2	spectrin SH3 domain	1SHG	57	stop	True		False	all	123	130	25	1326	0.2033	0.1923	0.09804	2.073
+famous	claude-fable-5-2	thioredoxin	2TRX	108	stop	True		False	short	7	34	0	597	0	0	0.05695	0
+famous	claude-fable-5-2	thioredoxin	2TRX	108	stop	True		False	medium	10	33	0	1086	0	0	0.03039	0
+famous	claude-fable-5-2	thioredoxin	2TRX	108	stop	True		False	long	54	141	31	3570	0.5741	0.2199	0.0395	14.54
+famous	claude-fable-5-2	thioredoxin	2TRX	108	stop	True		False	all	71	208	31	5253	0.4366	0.149	0.0396	11.03
+recent	claude-fable-5-2	HicA toxin, Leptotrichia wadei	9WYY	64	stop	True		False	short	43	28	15	333	0.3488	0.5357	0.08408	4.149
+recent	claude-fable-5-2	HicA toxin, Leptotrichia wadei	9WYY	64	stop	True		False	medium	25	34	3	558	0.12	0.08824	0.06093	1.969
+recent	claude-fable-5-2	HicA toxin, Leptotrichia wadei	9WYY	64	stop	True		False	long	11	41	4	820	0.3636	0.09756	0.05	7.273
+recent	claude-fable-5-2	HicA toxin, Leptotrichia wadei	9WYY	64	stop	True		False	all	79	103	22	1711	0.2785	0.2136	0.0602	4.626
+recent	claude-fable-5-2	YbaB homolog, Streptococcus mutans	9YMS	80	stop	True		False	short	227	27	18	429	0.0793	0.6667	0.06294	1.26
+recent	claude-fable-5-2	YbaB homolog, Streptococcus mutans	9YMS	80	stop	True		False	medium	84	37	7	750	0.08333	0.1892	0.04933	1.689
+recent	claude-fable-5-2	YbaB homolog, Streptococcus mutans	9YMS	80	stop	True		False	long	13	56	4	1596	0.3077	0.07143	0.03509	8.769
+recent	claude-fable-5-2	YbaB homolog, Streptococcus mutans	9YMS	80	stop	True		False	all	324	120	29	2775	0.08951	0.2417	0.04324	2.07
+recent	claude-fable-5-2	anti-CRISPR AcrIIA17	23AA	104	stop	True		False	short	5	21	1	573	0.2	0.04762	0.03665	5.457
+recent	claude-fable-5-2	anti-CRISPR AcrIIA17	23AA	104	stop	True		False	medium	10	29	1	1038	0.1	0.03448	0.02794	3.579
+recent	claude-fable-5-2	anti-CRISPR AcrIIA17	23AA	104	stop	True		False	long	9	90	0	3240	0	0	0.02778	0
+recent	claude-fable-5-2	anti-CRISPR AcrIIA17	23AA	104	stop	True		False	all	24	140	2	4851	0.08333	0.01429	0.02886	2.887
+recent	claude-fable-5-2	lanmodulin, Ancylobacter novellus	39RI	114	stop	True		False	short	48	36	8	633	0.1667	0.2222	0.05687	2.931
+recent	claude-fable-5-2	lanmodulin, Ancylobacter novellus	39RI	114	stop	True		False	medium	4	31	0	1158	0	0	0.02677	0
+recent	claude-fable-5-2	lanmodulin, Ancylobacter novellus	39RI	114	stop	True		False	long	1	99	0	4095	0	0	0.02418	0
+recent	claude-fable-5-2	lanmodulin, Ancylobacter novellus	39RI	114	stop	True		False	all	53	166	8	5886	0.1509	0.04819	0.0282	5.352
+recent	claude-fable-5-2	peptidyl-tRNA hydrolase 2, Lokiarchaeum	24BT	119	stop	True		False	short	5	27	3	663	0.6	0.1111	0.04072	14.73
+recent	claude-fable-5-2	peptidyl-tRNA hydrolase 2, Lokiarchaeum	24BT	119	stop	True		False	medium	23	30	10	1218	0.4348	0.3333	0.02463	17.65
+recent	claude-fable-5-2	peptidyl-tRNA hydrolase 2, Lokiarchaeum	24BT	119	stop	True		False	long	41	145	19	4560	0.4634	0.131	0.0318	14.57
+recent	claude-fable-5-2	peptidyl-tRNA hydrolase 2, Lokiarchaeum	24BT	119	stop	True		False	all	69	202	32	6441	0.4638	0.1584	0.03136	14.79
+recent	claude-fable-5-2	VnOptE beta-barrel domain	37TF	129	stop	True		False	short	50	73	37	723	0.74	0.5068	0.101	7.329
+recent	claude-fable-5-2	VnOptE beta-barrel domain	37TF	129	stop	True		False	medium	102	119	79	1338	0.7745	0.6639	0.08894	8.708
+recent	claude-fable-5-2	VnOptE beta-barrel domain	37TF	129	stop	True		False	long	31	123	20	5565	0.6452	0.1626	0.0221	29.19
+recent	claude-fable-5-2	VnOptE beta-barrel domain	37TF	129	stop	True		False	all	183	315	136	7626	0.7432	0.4317	0.04131	17.99
+famous	gpt-6.2-sol	barrier-to-autointegration factor	1CI4	87	completed	False	declined: no 0/1 lines		short		27		471			0.05732	
+famous	gpt-6.2-sol	barrier-to-autointegration factor	1CI4	87	completed	False	declined: no 0/1 lines		medium		38		834			0.04556	
+famous	gpt-6.2-sol	barrier-to-autointegration factor	1CI4	87	completed	False	declined: no 0/1 lines		long		66		2016			0.03274	
+famous	gpt-6.2-sol	barrier-to-autointegration factor	1CI4	87	completed	False	declined: no 0/1 lines		all		131		3321			0.03945	
+famous	gpt-6.2-sol	ubiquitin	1UBQ	76	completed	True		True	short	54	28	4	405	0.07407	0.1429	0.06914	1.071
+famous	gpt-6.2-sol	ubiquitin	1UBQ	76	completed	True		True	medium	0	30	0	702		0	0.04274	
+famous	gpt-6.2-sol	ubiquitin	1UBQ	76	completed	True		True	long	0	81	0	1378		0	0.05878	
+famous	gpt-6.2-sol	ubiquitin	1UBQ	76	completed	True		True	all	54	139	4	2485	0.07407	0.02878	0.05594	1.324
+famous	gpt-6.2-sol	protein G B1 domain	1PGA	56	completed	True		True	short	24	25	17	285	0.7083	0.68	0.08772	8.075
+famous	gpt-6.2-sol	protein G B1 domain	1PGA	56	completed	True		True	medium	22	37	17	462	0.7727	0.4595	0.08009	9.649
+famous	gpt-6.2-sol	protein G B1 domain	1PGA	56	completed	True		True	long	0	47	0	528		0	0.08902	
+famous	gpt-6.2-sol	protein G B1 domain	1PGA	56	completed	True		True	all	46	109	34	1275	0.7391	0.3119	0.08549	8.646
+famous	gpt-6.2-sol	BPTI	5PTI	58	completed	True		True	short	0	15	0	297		0	0.05051	
+famous	gpt-6.2-sol	BPTI	5PTI	58	completed	True		True	medium	0	41	0	486		0	0.08436	
+famous	gpt-6.2-sol	BPTI	5PTI	58	completed	True		True	long	3	57	0	595	0	0	0.0958	0
+famous	gpt-6.2-sol	BPTI	5PTI	58	completed	True		True	all	3	113	0	1378	0	0	0.082	0
+famous	gpt-6.2-sol	spectrin SH3 domain	1SHG	57	completed	True		True	short	0	30	0	291		0	0.1031	
+famous	gpt-6.2-sol	spectrin SH3 domain	1SHG	57	completed	True		True	medium	0	49	0	474		0	0.1034	
+famous	gpt-6.2-sol	spectrin SH3 domain	1SHG	57	completed	True		True	long	0	51	0	561		0	0.09091	
+famous	gpt-6.2-sol	spectrin SH3 domain	1SHG	57	completed	True		True	all	0	130	0	1326		0	0.09804	
+famous	gpt-6.2-sol	thioredoxin	2TRX	108	completed	False	declined: no 0/1 lines		short		34		597			0.05695	
+famous	gpt-6.2-sol	thioredoxin	2TRX	108	completed	False	declined: no 0/1 lines		medium		33		1086			0.03039	
+famous	gpt-6.2-sol	thioredoxin	2TRX	108	completed	False	declined: no 0/1 lines		long		141		3570			0.0395	
+famous	gpt-6.2-sol	thioredoxin	2TRX	108	completed	False	declined: no 0/1 lines		all		208		5253			0.0396	
+recent	gpt-6.2-sol	HicA toxin, Leptotrichia wadei	9WYY	64	completed	False	declined: no 0/1 lines		short		28		333			0.08408	
+recent	gpt-6.2-sol	HicA toxin, Leptotrichia wadei	9WYY	64	completed	False	declined: no 0/1 lines		medium		34		558			0.06093	
+recent	gpt-6.2-sol	HicA toxin, Leptotrichia wadei	9WYY	64	completed	False	declined: no 0/1 lines		long		41		820			0.05	
+recent	gpt-6.2-sol	HicA toxin, Leptotrichia wadei	9WYY	64	completed	False	declined: no 0/1 lines		all		103		1711			0.0602	
+recent	gpt-6.2-sol	YbaB homolog, Streptococcus mutans	9YMS	80	completed	True		True	short	0	27	0	429		0	0.06294	
+recent	gpt-6.2-sol	YbaB homolog, Streptococcus mutans	9YMS	80	completed	True		True	medium	0	37	0	750		0	0.04933	
+recent	gpt-6.2-sol	YbaB homolog, Streptococcus mutans	9YMS	80	completed	True		True	long	0	56	0	1596		0	0.03509	
+recent	gpt-6.2-sol	YbaB homolog, Streptococcus mutans	9YMS	80	completed	True		True	all	0	120	0	2775		0	0.04324	
+recent	gpt-6.2-sol	anti-CRISPR AcrIIA17	23AA	104	completed	False	declined: no 0/1 lines		short		21		573			0.03665	
+recent	gpt-6.2-sol	anti-CRISPR AcrIIA17	23AA	104	completed	False	declined: no 0/1 lines		medium		29		1038			0.02794	
+recent	gpt-6.2-sol	anti-CRISPR AcrIIA17	23AA	104	completed	False	declined: no 0/1 lines		long		90		3240			0.02778	
+recent	gpt-6.2-sol	anti-CRISPR AcrIIA17	23AA	104	completed	False	declined: no 0/1 lines		all		140		4851			0.02886	
+recent	gpt-6.2-sol	lanmodulin, Ancylobacter novellus	39RI	114	completed	False	declined: no 0/1 lines		short		36		633			0.05687	
+recent	gpt-6.2-sol	lanmodulin, Ancylobacter novellus	39RI	114	completed	False	declined: no 0/1 lines		medium		31		1158			0.02677	
+recent	gpt-6.2-sol	lanmodulin, Ancylobacter novellus	39RI	114	completed	False	declined: no 0/1 lines		long		99		4095			0.02418	
+recent	gpt-6.2-sol	lanmodulin, Ancylobacter novellus	39RI	114	completed	False	declined: no 0/1 lines		all		166		5886			0.0282	
+recent	gpt-6.2-sol	peptidyl-tRNA hydrolase 2, Lokiarchaeum	24BT	119	completed	False	declined: no 0/1 lines		short		27		663			0.04072	
+recent	gpt-6.2-sol	peptidyl-tRNA hydrolase 2, Lokiarchaeum	24BT	119	completed	False	declined: no 0/1 lines		medium		30		1218			0.02463	
+recent	gpt-6.2-sol	peptidyl-tRNA hydrolase 2, Lokiarchaeum	24BT	119	completed	False	declined: no 0/1 lines		long		145		4560			0.0318	
+recent	gpt-6.2-sol	peptidyl-tRNA hydrolase 2, Lokiarchaeum	24BT	119	completed	False	declined: no 0/1 lines		all		202		6441			0.03136	
+recent	gpt-6.2-sol	VnOptE beta-barrel domain	37TF	129	completed	False	declined: no 0/1 lines		short		73		723			0.101	
+recent	gpt-6.2-sol	VnOptE beta-barrel domain	37TF	129	completed	False	declined: no 0/1 lines		medium		119		1338			0.08894	
+recent	gpt-6.2-sol	VnOptE beta-barrel domain	37TF	129	completed	False	declined: no 0/1 lines		long		123		5565			0.0221	
+recent	gpt-6.2-sol	VnOptE beta-barrel domain	37TF	129	completed	False	declined: no 0/1 lines		all		315		7626			0.04131	
+famous	claude-opus-5-5	ALL famous				True	2 well-formed of 6		short	23	43	18	702	0.7826	0.4186	0.06125	12.78
+famous	claude-opus-5-5	ALL famous				True	2 well-formed of 6		medium	37	71	23	1188	0.6216	0.3239	0.05976	10.4
+famous	claude-opus-5-5	ALL famous				True	2 well-formed of 6		long	49	138	24	1973	0.4898	0.1739	0.06994	7.003
+famous	claude-opus-5-5	ALL famous				True	2 well-formed of 6		all	109	252	65	3863	0.5963	0.2579	0.06523	9.141
+recent	claude-opus-5-5	ALL recent				True	1 well-formed of 6		short	34	28	0	333	0	0	0.08408	0
+recent	claude-opus-5-5	ALL recent				True	1 well-formed of 6		medium	18	34	0	558	0	0	0.06093	0
+recent	claude-opus-5-5	ALL recent				True	1 well-formed of 6		long	3	41	0	820	0	0	0.05	0
+recent	claude-opus-5-5	ALL recent				True	1 well-formed of 6		all	55	103	0	1711	0	0	0.0602	0
+famous	claude-fable-5-2	ALL famous				True	6 well-formed of 6		short	160	159	38	2346	0.2375	0.239	0.06777	3.504
+famous	claude-fable-5-2	ALL famous				True	6 well-formed of 6		medium	198	228	65	4044	0.3283	0.2851	0.05638	5.823
+famous	claude-fable-5-2	ALL famous				True	6 well-formed of 6		long	255	443	128	8648	0.502	0.2889	0.05123	9.799
+famous	claude-fable-5-2	ALL famous				True	6 well-formed of 6		all	613	830	231	1.504e+04	0.3768	0.2783	0.05519	6.828
+recent	claude-fable-5-2	ALL recent				True	6 well-formed of 6		short	378	212	82	3354	0.2169	0.3868	0.06321	3.432
+recent	claude-fable-5-2	ALL recent				True	6 well-formed of 6		medium	248	280	100	6060	0.4032	0.3571	0.0462	8.727
+recent	claude-fable-5-2	ALL recent				True	6 well-formed of 6		long	106	554	47	1.988e+04	0.4434	0.08484	0.02787	15.91
+recent	claude-fable-5-2	ALL recent				True	6 well-formed of 6		all	732	1046	229	2.929e+04	0.3128	0.2189	0.03571	8.76
+famous	gpt-6.2-sol	ALL famous				True	4 well-formed of 6		short	78	98	21	1278	0.2692	0.2143	0.07668	3.511
+famous	gpt-6.2-sol	ALL famous				True	4 well-formed of 6		medium	22	157	17	2124	0.7727	0.1083	0.07392	10.45
+famous	gpt-6.2-sol	ALL famous				True	4 well-formed of 6		long	3	236	0	3062	0	0	0.07707	0
+famous	gpt-6.2-sol	ALL famous				True	4 well-formed of 6		all	103	491	38	6464	0.3689	0.07739	0.07596	4.857
+recent	gpt-6.2-sol	ALL recent				True	1 well-formed of 6		short	0	27	0	429		0	0.06294	
+recent	gpt-6.2-sol	ALL recent				True	1 well-formed of 6		medium	0	37	0	750		0	0.04933	
+recent	gpt-6.2-sol	ALL recent				True	1 well-formed of 6		long	0	56	0	1596		0	0.03509	
+recent	gpt-6.2-sol	ALL recent				True	1 well-formed of 6		all	0	120	0	2775		0	0.04324	
