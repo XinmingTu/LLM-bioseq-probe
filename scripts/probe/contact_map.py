@@ -12,7 +12,16 @@ modelled residues in one contiguous chain, with no earlier PDB entry at 90% sequ
 more (RCSB sequence search, 2026-11-18). A rerun keeps the replies already on file and asks only for
 the missing ones and those that errored.
 
-    uv run --with biopython python scripts/probe/contact_map.py --models claude-opus-5-5 --run
+The expanded set (scripts/data/08_contact_map_set.py, data/contact_map_proteins.tsv) adds about
+40 recent X-ray structures with each protein's novelty recorded; their true maps come from the
+mmCIF file, on the gap-free modelled chain listed there. A second prompt, "list", asks for the
+contacts as "i j" lines instead of a grid (Leo's grid prompt is kept unchanged as "grid").
+Replies go to results/contact_map/<model>.jsonl for the grid prompt (the pilot's file, extended),
+<model>__list.jsonl for the list prompt, and <model>__grid_run2.jsonl for a repeat of the grid prompt.
+
+    uv run --with biopython --with gemmi python scripts/probe/contact_map.py --models claude-opus-5-5 --run
+    uv run --with biopython --with gemmi python scripts/probe/contact_map.py --models claude-fable-5-2 --prompt list --run
+    uv run --with biopython --with gemmi python scripts/probe/contact_map.py --models claude-fable-5-2 --proteins clean --tag run2 --run
 """
 
 import argparse
@@ -63,6 +72,25 @@ def structure(pdb: str, chain: str) -> tuple[str, np.ndarray]:
     return "".join(seq), (dist < 8.0).astype(int)
 
 
+def structure_cif(pdb: str, label_asym: str, first: int, last: int) -> tuple[str, np.ndarray]:
+    """The same for the expanded set: label_seq_id first..last of one chain (label_asym_id),
+    checked gap-free by scripts/data/08_contact_map_set.py."""
+    import gemmi
+
+    path = Path(f"data/contact_map/cif/{pdb}.cif.gz")
+    if not path.exists():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(urllib.request.urlopen(f"https://files.rcsb.org/download/{pdb}.cif.gz", timeout=60).read())
+    st = gemmi.read_structure(str(path))
+    st.setup_entities()
+    st.remove_alternative_conformations()
+    res = [r for ch in st[0] for r in ch.get_polymer() if r.subchain == label_asym and first <= r.label_seq <= last]
+    assert [r.label_seq for r in res] == list(range(first, last + 1)), pdb
+    xyz = np.array([r.find_atom("CA" if r.name == "GLY" else "CB", "*").pos.tolist() for r in res])
+    dist = np.linalg.norm(xyz[:, None] - xyz[None], axis=-1)
+    return "".join(THREE[r.name] for r in res), (dist < 8.0).astype(int)
+
+
 def prompt(seq: str) -> str:
     lines = "\n".join(seq[i : i + 60] for i in range(0, len(seq), 60))
     n = len(seq)
@@ -73,38 +101,80 @@ def prompt(seq: str) -> str:
             f"contact. Nothing else.\n\n>sequence\n{lines}")
 
 
-if __name__ == "__main__":
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--models", required=True)
-    ap.add_argument("--run", action="store_true")
-    args = ap.parse_args()
-    out = Path("results/contact_map")
-    out.mkdir(parents=True, exist_ok=True)
+def prompt_list(seq: str) -> str:
+    """The same question, answered as a list of contacting pairs: no grid to keep aligned."""
+    lines = "\n".join(seq[i : i + 60] for i in range(0, len(seq), 60))
+    n = len(seq)
+    return (f"Below is a protein sequence of {n} amino acids in one-letter codes. Predict its residue-residue contacts: "
+            f"residues i and j are in contact if their C-beta atoms (C-alpha for glycine) are within 8 Å. Give your best guess "
+            f"even if you are uncertain. Do not explain or refuse. Reply with the contacts only, one pair per line, written as "
+            f"\"i j\": the two residue numbers (1 to {n}, numbered from the first residue) separated by a space, with i < j and "
+            f"j - i >= 6. Nothing else.\n\n>sequence\n{lines}")
+
+
+PROMPTS = {"grid": prompt, "list": prompt_list}
+
+
+def load_truth() -> dict:
+    """The pilot's twelve proteins (PDB format, author chain) and the expanded set (mmCIF, label chain)."""
+    import pandas as pd
+
     truth = {}
     for name, (pdb, chain, group) in PROTEINS.items():
         seq, cmap = structure(pdb, chain)
         truth[name] = {"pdb": pdb, "chain": chain, "set": group, "sequence": seq, "map": ["".join(map(str, r)) for r in cmap]}
-        print(f"{name:36s} {pdb} {len(seq):4d} residues, {int(np.triu(cmap, 6).sum())} contacts at separation >= 6")
+    for r in pd.read_csv("data/contact_map_proteins.tsv", sep="\t").itertuples():
+        if r.pdb in {v["pdb"] for v in truth.values()}:
+            continue  # a pilot protein, re-checked there but scored on its pilot map
+        seq, cmap = structure_cif(r.pdb, r.label_asym, r.seq_from, r.seq_to)
+        assert seq == r.sequence, r.pdb
+        truth[r.pdb] = {"pdb": r.pdb, "chain": r.chain, "set": "expanded", "sequence": seq, "map": ["".join(map(str, x)) for x in cmap]}
+    return truth
+
+
+if __name__ == "__main__":
+    import pandas as pd
+
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--models", required=True)
+    ap.add_argument("--prompt", choices=PROMPTS, default="grid")
+    ap.add_argument("--proteins", choices=["all", "clean"], default="all", help="clean: the cleanest group only")
+    ap.add_argument("--tag", default="", help="a repeat run's name, e.g. run2")
+    ap.add_argument("--run", action="store_true")
+    args = ap.parse_args()
+    out = Path("results/contact_map")
+    out.mkdir(parents=True, exist_ok=True)
+    truth = load_truth()
     (out / "truth.json").write_text(json.dumps(truth))
+    asked = dict(truth)
+    if args.proteins == "clean":
+        clean = set(pd.read_csv("data/contact_map_proteins.tsv", sep="\t").query("group == 'clean'").pdb)
+        asked = {k: v for k, v in truth.items() if v["pdb"] in clean}
+    print(f"{len(truth)} proteins with true maps; asking about {len(asked)}")
     for model in args.models.split(","):
+        suffix = f"__{args.prompt}_{args.tag}" if args.tag else "" if args.prompt == "grid" else f"__{args.prompt}"
+        path = out / f"{model}{suffix}.jsonl"
+        kept = {r["protein"]: r for r in map(json.loads, path.open()) if "error" not in r} if path.exists() else {}
+        todo = [n for n in asked if n not in kept]
+        cost = sum(len(asked[n]["sequence"]) ** 2 for n in todo) / 2.5 * 40 / 1e6  # ~2.5 characters a token, $40/M output at most
+        print(f"{model} {args.prompt}{' ' + args.tag if args.tag else ''}: kept {len(kept)}, to ask {len(todo)} (at most ~${cost:.0f})")
         if not args.run:
             continue
 
-        def one(item, model=model):
-            name, t = item
-            rec = {"model": model, "protein": name, "pdb": t["pdb"], "length": len(t["sequence"])}
+        def one(name, model=model):
+            t = truth[name]
+            rec = {"model": model, "prompt": args.prompt, "protein": name, "pdb": t["pdb"], "length": len(t["sequence"])}
             try:
-                r = call(model, prompt(t["sequence"]), max_tokens=32000)
+                r = call(model, PROMPTS[args.prompt](t["sequence"]), max_tokens=32000)
                 rec |= {"text": r.text, "stop": r.stop, "usage": r.usage}
             except Exception as e:
                 rec["error"] = f"{type(e).__name__}: {e}"[:300]
             return rec
 
-        path = out / f"{model}.jsonl"
-        kept = {r["protein"]: r for r in map(json.loads, path.open()) if "error" not in r} if path.exists() else {}
         with ThreadPoolExecutor(8) as pool:
-            new = dict(zip([n for n in truth if n not in kept], pool.map(one, [(n, t) for n, t in truth.items() if n not in kept])))
-        with path.open("w") as f:
-            for name in truth:
-                f.write(json.dumps(kept.get(name) or new[name]) + "\n")
-        print(model, f"kept {len(kept)}, asked {len(new)}")
+            new = dict(zip(todo, pool.map(one, todo)))
+        with path.open("w") as f:  # replies about proteins no longer in the set are kept, not scored
+            for name in [*truth, *(k for k in kept if k not in truth)]:
+                if name in kept or name in new:
+                    f.write(json.dumps(kept.get(name) or new[name]) + "\n")
+        print(model, f"kept {len(kept)}, asked {len(new)}, errors {sum('error' in r for r in new.values())}")

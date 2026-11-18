@@ -1,0 +1,6 @@
+protein	pdb	group	run1_scored	run2_scored	run1_long_pred	run1_long_correct	run1_long_precision	run2_long_pred	run2_long_correct	run2_long_precision	jaccard_long	jaccard_all
+anti-CRISPR AcrIIA17	23AA	old sequence	True	True	9	0	0	0	0		0	0
+31KJ	31KJ	clean	True	True	0	0		13	0	0	0	0
+37JY	37JY	old sequence	True	True	0	0		13	0	0	0	0
+9WIA	9WIA	old sequence	True	True	27	1	0.03704	28	19	0.6786	0	0
+9XKC	9XKC	clean	True	True	4	1	0.25	8	1	0.125	0.09091	0.1481

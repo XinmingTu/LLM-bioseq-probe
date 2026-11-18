@@ -1,0 +1,547 @@
+source	group	proteins	shift	pairs	hits	precision
+fable_grid	famous	6	-20	77	7	0.09091
+fable_grid	famous	6	-10	94	3	0.03191
+fable_grid	famous	6	-5	169	22	0.1302
+fable_grid	famous	6	-3	216	52	0.2407
+fable_grid	famous	6	-2	235	78	0.3319
+fable_grid	famous	6	-1	250	114	0.456
+fable_grid	famous	6	0	255	128	0.502
+fable_grid	famous	6	1	252	98	0.3889
+fable_grid	famous	6	2	244	77	0.3156
+fable_grid	famous	6	3	230	52	0.2261
+fable_grid	famous	6	5	201	25	0.1244
+fable_grid	famous	6	10	128	16	0.125
+fable_grid	famous	6	20	91	7	0.07692
+fable_grid	clean	2	-20	3	0	0
+fable_grid	clean	2	-10	4	0	0
+fable_grid	clean	2	-5	4	0	0
+fable_grid	clean	2	-3	4	1	0.25
+fable_grid	clean	2	-2	4	0	0
+fable_grid	clean	2	-1	4	0	0
+fable_grid	clean	2	0	4	1	0.25
+fable_grid	clean	2	1	4	0	0
+fable_grid	clean	2	2	4	0	0
+fable_grid	clean	2	3	4	0	0
+fable_grid	clean	2	5	4	0	0
+fable_grid	clean	2	10	4	0	0
+fable_grid	clean	2	20	4	0	0
+fable_grid	new sequence, PDB relative	4	-20	107	0	0
+fable_grid	new sequence, PDB relative	4	-10	145	0	0
+fable_grid	new sequence, PDB relative	4	-5	183	6	0.03279
+fable_grid	new sequence, PDB relative	4	-3	196	3	0.01531
+fable_grid	new sequence, PDB relative	4	-2	202	7	0.03465
+fable_grid	new sequence, PDB relative	4	-1	202	20	0.09901
+fable_grid	new sequence, PDB relative	4	0	202	45	0.2228
+fable_grid	new sequence, PDB relative	4	1	202	23	0.1139
+fable_grid	new sequence, PDB relative	4	2	194	24	0.1237
+fable_grid	new sequence, PDB relative	4	3	188	12	0.06383
+fable_grid	new sequence, PDB relative	4	5	166	0	0
+fable_grid	new sequence, PDB relative	4	10	125	0	0
+fable_grid	new sequence, PDB relative	4	20	89	0	0
+fable_grid	old sequence	14	-20	234	1	0.004274
+fable_grid	old sequence	14	-10	321	10	0.03115
+fable_grid	old sequence	14	-5	377	17	0.04509
+fable_grid	old sequence	14	-3	392	29	0.07398
+fable_grid	old sequence	14	-2	399	49	0.1228
+fable_grid	old sequence	14	-1	403	114	0.2829
+fable_grid	old sequence	14	0	403	113	0.2804
+fable_grid	old sequence	14	1	398	49	0.1231
+fable_grid	old sequence	14	2	387	33	0.08527
+fable_grid	old sequence	14	3	371	30	0.08086
+fable_grid	old sequence	14	5	336	10	0.02976
+fable_grid	old sequence	14	10	257	6	0.02335
+fable_grid	old sequence	14	20	191	2	0.01047
+fable_grid	old sequence, PDB relative	21	-20	553	21	0.03797
+fable_grid	old sequence, PDB relative	21	-10	837	13	0.01553
+fable_grid	old sequence, PDB relative	21	-5	1060	32	0.03019
+fable_grid	old sequence, PDB relative	21	-3	1132	103	0.09099
+fable_grid	old sequence, PDB relative	21	-2	1150	158	0.1374
+fable_grid	old sequence, PDB relative	21	-1	1160	257	0.2216
+fable_grid	old sequence, PDB relative	21	0	1160	300	0.2586
+fable_grid	old sequence, PDB relative	21	1	1154	212	0.1837
+fable_grid	old sequence, PDB relative	21	2	1142	130	0.1138
+fable_grid	old sequence, PDB relative	21	3	1126	83	0.07371
+fable_grid	old sequence, PDB relative	21	5	1079	35	0.03244
+fable_grid	old sequence, PDB relative	21	10	839	23	0.02741
+fable_grid	old sequence, PDB relative	21	20	607	6	0.009885
+fable_grid	no earlier PDB relative (clean + old sequence)	16	-20	237	1	0.004219
+fable_grid	no earlier PDB relative (clean + old sequence)	16	-10	325	10	0.03077
+fable_grid	no earlier PDB relative (clean + old sequence)	16	-5	381	17	0.04462
+fable_grid	no earlier PDB relative (clean + old sequence)	16	-3	396	30	0.07576
+fable_grid	no earlier PDB relative (clean + old sequence)	16	-2	403	49	0.1216
+fable_grid	no earlier PDB relative (clean + old sequence)	16	-1	407	114	0.2801
+fable_grid	no earlier PDB relative (clean + old sequence)	16	0	407	114	0.2801
+fable_grid	no earlier PDB relative (clean + old sequence)	16	1	402	49	0.1219
+fable_grid	no earlier PDB relative (clean + old sequence)	16	2	391	33	0.0844
+fable_grid	no earlier PDB relative (clean + old sequence)	16	3	375	30	0.08
+fable_grid	no earlier PDB relative (clean + old sequence)	16	5	340	10	0.02941
+fable_grid	no earlier PDB relative (clean + old sequence)	16	10	261	6	0.02299
+fable_grid	no earlier PDB relative (clean + old sequence)	16	20	195	2	0.01026
+fable_grid	all recent	41	-20	897	22	0.02453
+fable_grid	all recent	41	-10	1307	23	0.0176
+fable_grid	all recent	41	-5	1624	55	0.03387
+fable_grid	all recent	41	-3	1724	136	0.07889
+fable_grid	all recent	41	-2	1755	214	0.1219
+fable_grid	all recent	41	-1	1769	391	0.221
+fable_grid	all recent	41	0	1769	459	0.2595
+fable_grid	all recent	41	1	1758	284	0.1615
+fable_grid	all recent	41	2	1727	187	0.1083
+fable_grid	all recent	41	3	1689	125	0.07401
+fable_grid	all recent	41	5	1585	45	0.02839
+fable_grid	all recent	41	10	1225	29	0.02367
+fable_grid	all recent	41	20	891	8	0.008979
+fable_grid_run2	clean	2	-20	18	4	0.2222
+fable_grid_run2	clean	2	-10	21	0	0
+fable_grid_run2	clean	2	-5	21	0	0
+fable_grid_run2	clean	2	-3	21	2	0.09524
+fable_grid_run2	clean	2	-2	21	1	0.04762
+fable_grid_run2	clean	2	-1	21	0	0
+fable_grid_run2	clean	2	0	21	1	0.04762
+fable_grid_run2	clean	2	1	21	3	0.1429
+fable_grid_run2	clean	2	2	21	0	0
+fable_grid_run2	clean	2	3	21	0	0
+fable_grid_run2	clean	2	5	21	0	0
+fable_grid_run2	clean	2	10	21	0	0
+fable_grid_run2	clean	2	20	11	0	0
+fable_grid_run2	old sequence	3	-20	17	1	0.05882
+fable_grid_run2	old sequence	3	-10	41	0	0
+fable_grid_run2	old sequence	3	-5	41	0	0
+fable_grid_run2	old sequence	3	-3	41	0	0
+fable_grid_run2	old sequence	3	-2	41	0	0
+fable_grid_run2	old sequence	3	-1	41	7	0.1707
+fable_grid_run2	old sequence	3	0	41	19	0.4634
+fable_grid_run2	old sequence	3	1	40	18	0.45
+fable_grid_run2	old sequence	3	2	38	6	0.1579
+fable_grid_run2	old sequence	3	3	35	0	0
+fable_grid_run2	old sequence	3	5	27	0	0
+fable_grid_run2	old sequence	3	10	13	0	0
+fable_grid_run2	old sequence	3	20	13	0	0
+fable_grid_run2	no earlier PDB relative (clean + old sequence)	5	-20	35	5	0.1429
+fable_grid_run2	no earlier PDB relative (clean + old sequence)	5	-10	62	0	0
+fable_grid_run2	no earlier PDB relative (clean + old sequence)	5	-5	62	0	0
+fable_grid_run2	no earlier PDB relative (clean + old sequence)	5	-3	62	2	0.03226
+fable_grid_run2	no earlier PDB relative (clean + old sequence)	5	-2	62	1	0.01613
+fable_grid_run2	no earlier PDB relative (clean + old sequence)	5	-1	62	7	0.1129
+fable_grid_run2	no earlier PDB relative (clean + old sequence)	5	0	62	20	0.3226
+fable_grid_run2	no earlier PDB relative (clean + old sequence)	5	1	61	21	0.3443
+fable_grid_run2	no earlier PDB relative (clean + old sequence)	5	2	59	6	0.1017
+fable_grid_run2	no earlier PDB relative (clean + old sequence)	5	3	56	0	0
+fable_grid_run2	no earlier PDB relative (clean + old sequence)	5	5	48	0	0
+fable_grid_run2	no earlier PDB relative (clean + old sequence)	5	10	34	0	0
+fable_grid_run2	no earlier PDB relative (clean + old sequence)	5	20	24	0	0
+fable_grid_run2	all recent	5	-20	35	5	0.1429
+fable_grid_run2	all recent	5	-10	62	0	0
+fable_grid_run2	all recent	5	-5	62	0	0
+fable_grid_run2	all recent	5	-3	62	2	0.03226
+fable_grid_run2	all recent	5	-2	62	1	0.01613
+fable_grid_run2	all recent	5	-1	62	7	0.1129
+fable_grid_run2	all recent	5	0	62	20	0.3226
+fable_grid_run2	all recent	5	1	61	21	0.3443
+fable_grid_run2	all recent	5	2	59	6	0.1017
+fable_grid_run2	all recent	5	3	56	0	0
+fable_grid_run2	all recent	5	5	48	0	0
+fable_grid_run2	all recent	5	10	34	0	0
+fable_grid_run2	all recent	5	20	24	0	0
+fable_list	famous	6	-20	84	6	0.07143
+fable_list	famous	6	-10	117	9	0.07692
+fable_list	famous	6	-5	171	19	0.1111
+fable_list	famous	6	-3	211	39	0.1848
+fable_list	famous	6	-2	226	53	0.2345
+fable_list	famous	6	-1	236	76	0.322
+fable_list	famous	6	0	243	139	0.572
+fable_list	famous	6	1	242	78	0.3223
+fable_list	famous	6	2	235	57	0.2426
+fable_list	famous	6	3	230	35	0.1522
+fable_list	famous	6	5	205	19	0.09268
+fable_list	famous	6	10	156	7	0.04487
+fable_list	famous	6	20	109	10	0.09174
+fable_list	clean	2	-20	35	1	0.02857
+fable_list	clean	2	-10	48	0	0
+fable_list	clean	2	-5	50	4	0.08
+fable_list	clean	2	-3	50	1	0.02
+fable_list	clean	2	-2	50	2	0.04
+fable_list	clean	2	-1	50	5	0.1
+fable_list	clean	2	0	50	11	0.22
+fable_list	clean	2	1	50	4	0.08
+fable_list	clean	2	2	50	2	0.04
+fable_list	clean	2	3	50	5	0.1
+fable_list	clean	2	5	50	1	0.02
+fable_list	clean	2	10	49	0	0
+fable_list	clean	2	20	41	0	0
+fable_list	new sequence, PDB relative	6	-20	92	2	0.02174
+fable_list	new sequence, PDB relative	6	-10	126	0	0
+fable_list	new sequence, PDB relative	6	-5	191	7	0.03665
+fable_list	new sequence, PDB relative	6	-3	200	11	0.055
+fable_list	new sequence, PDB relative	6	-2	208	12	0.05769
+fable_list	new sequence, PDB relative	6	-1	209	15	0.07177
+fable_list	new sequence, PDB relative	6	0	209	49	0.2344
+fable_list	new sequence, PDB relative	6	1	206	36	0.1748
+fable_list	new sequence, PDB relative	6	2	196	19	0.09694
+fable_list	new sequence, PDB relative	6	3	192	7	0.03646
+fable_list	new sequence, PDB relative	6	5	173	0	0
+fable_list	new sequence, PDB relative	6	10	132	2	0.01515
+fable_list	new sequence, PDB relative	6	20	108	2	0.01852
+fable_list	old sequence	15	-20	358	7	0.01955
+fable_list	old sequence	15	-10	463	11	0.02376
+fable_list	old sequence	15	-5	549	23	0.04189
+fable_list	old sequence	15	-3	572	26	0.04545
+fable_list	old sequence	15	-2	579	59	0.1019
+fable_list	old sequence	15	-1	584	77	0.1318
+fable_list	old sequence	15	0	586	81	0.1382
+fable_list	old sequence	15	1	583	62	0.1063
+fable_list	old sequence	15	2	579	38	0.06563
+fable_list	old sequence	15	3	567	32	0.05644
+fable_list	old sequence	15	5	535	36	0.06729
+fable_list	old sequence	15	10	466	9	0.01931
+fable_list	old sequence	15	20	380	8	0.02105
+fable_list	old sequence, PDB relative	23	-20	495	6	0.01212
+fable_list	old sequence, PDB relative	23	-10	711	21	0.02954
+fable_list	old sequence, PDB relative	23	-5	867	36	0.04152
+fable_list	old sequence, PDB relative	23	-3	906	59	0.06512
+fable_list	old sequence, PDB relative	23	-2	916	78	0.08515
+fable_list	old sequence, PDB relative	23	-1	925	104	0.1124
+fable_list	old sequence, PDB relative	23	0	930	178	0.1914
+fable_list	old sequence, PDB relative	23	1	927	152	0.164
+fable_list	old sequence, PDB relative	23	2	920	104	0.113
+fable_list	old sequence, PDB relative	23	3	909	81	0.08911
+fable_list	old sequence, PDB relative	23	5	865	35	0.04046
+fable_list	old sequence, PDB relative	23	10	705	14	0.01986
+fable_list	old sequence, PDB relative	23	20	542	15	0.02768
+fable_list	no earlier PDB relative (clean + old sequence)	17	-20	393	8	0.02036
+fable_list	no earlier PDB relative (clean + old sequence)	17	-10	511	11	0.02153
+fable_list	no earlier PDB relative (clean + old sequence)	17	-5	599	27	0.04508
+fable_list	no earlier PDB relative (clean + old sequence)	17	-3	622	27	0.04341
+fable_list	no earlier PDB relative (clean + old sequence)	17	-2	629	61	0.09698
+fable_list	no earlier PDB relative (clean + old sequence)	17	-1	634	82	0.1293
+fable_list	no earlier PDB relative (clean + old sequence)	17	0	636	92	0.1447
+fable_list	no earlier PDB relative (clean + old sequence)	17	1	633	66	0.1043
+fable_list	no earlier PDB relative (clean + old sequence)	17	2	629	40	0.06359
+fable_list	no earlier PDB relative (clean + old sequence)	17	3	617	37	0.05997
+fable_list	no earlier PDB relative (clean + old sequence)	17	5	585	37	0.06325
+fable_list	no earlier PDB relative (clean + old sequence)	17	10	515	9	0.01748
+fable_list	no earlier PDB relative (clean + old sequence)	17	20	421	8	0.019
+fable_list	all recent	46	-20	980	16	0.01633
+fable_list	all recent	46	-10	1348	32	0.02374
+fable_list	all recent	46	-5	1657	70	0.04225
+fable_list	all recent	46	-3	1728	97	0.05613
+fable_list	all recent	46	-2	1753	151	0.08614
+fable_list	all recent	46	-1	1768	201	0.1137
+fable_list	all recent	46	0	1775	319	0.1797
+fable_list	all recent	46	1	1766	254	0.1438
+fable_list	all recent	46	2	1745	163	0.09341
+fable_list	all recent	46	3	1718	125	0.07276
+fable_list	all recent	46	5	1623	72	0.04436
+fable_list	all recent	46	10	1352	25	0.01849
+fable_list	all recent	46	20	1071	25	0.02334
+opus_grid	famous	2	-20	18	11	0.6111
+opus_grid	famous	2	-10	24	2	0.08333
+opus_grid	famous	2	-5	31	8	0.2581
+opus_grid	famous	2	-3	40	19	0.475
+opus_grid	famous	2	-2	43	30	0.6977
+opus_grid	famous	2	-1	46	28	0.6087
+opus_grid	famous	2	0	49	24	0.4898
+opus_grid	famous	2	1	48	20	0.4167
+opus_grid	famous	2	2	46	14	0.3043
+opus_grid	famous	2	3	43	11	0.2558
+opus_grid	famous	2	5	33	6	0.1818
+opus_grid	famous	2	10	19	2	0.1053
+opus_grid	famous	2	20	2	0	0
+opus_grid	new sequence, PDB relative	1	-20	0	0	
+opus_grid	new sequence, PDB relative	1	-10	32	0	0
+opus_grid	new sequence, PDB relative	1	-5	62	1	0.01613
+opus_grid	new sequence, PDB relative	1	-3	74	2	0.02703
+opus_grid	new sequence, PDB relative	1	-2	80	6	0.075
+opus_grid	new sequence, PDB relative	1	-1	80	7	0.0875
+opus_grid	new sequence, PDB relative	1	0	80	9	0.1125
+opus_grid	new sequence, PDB relative	1	1	80	4	0.05
+opus_grid	new sequence, PDB relative	1	2	80	3	0.0375
+opus_grid	new sequence, PDB relative	1	3	79	1	0.01266
+opus_grid	new sequence, PDB relative	1	5	74	1	0.01351
+opus_grid	new sequence, PDB relative	1	10	59	1	0.01695
+opus_grid	new sequence, PDB relative	1	20	29	0	0
+opus_grid	old sequence	1	-20	0	0	
+opus_grid	old sequence	1	-10	0	0	
+opus_grid	old sequence	1	-5	0	0	
+opus_grid	old sequence	1	-3	0	0	
+opus_grid	old sequence	1	-2	0	0	
+opus_grid	old sequence	1	-1	0	0	
+opus_grid	old sequence	1	0	0	0	
+opus_grid	old sequence	1	1	0	0	
+opus_grid	old sequence	1	2	0	0	
+opus_grid	old sequence	1	3	0	0	
+opus_grid	old sequence	1	5	0	0	
+opus_grid	old sequence	1	10	0	0	
+opus_grid	old sequence	1	20	0	0	
+opus_grid	old sequence, PDB relative	5	-20	42	2	0.04762
+opus_grid	old sequence, PDB relative	5	-10	88	0	0
+opus_grid	old sequence, PDB relative	5	-5	97	4	0.04124
+opus_grid	old sequence, PDB relative	5	-3	103	20	0.1942
+opus_grid	old sequence, PDB relative	5	-2	106	26	0.2453
+opus_grid	old sequence, PDB relative	5	-1	106	24	0.2264
+opus_grid	old sequence, PDB relative	5	0	106	32	0.3019
+opus_grid	old sequence, PDB relative	5	1	105	26	0.2476
+opus_grid	old sequence, PDB relative	5	2	103	19	0.1845
+opus_grid	old sequence, PDB relative	5	3	100	22	0.22
+opus_grid	old sequence, PDB relative	5	5	93	14	0.1505
+opus_grid	old sequence, PDB relative	5	10	66	0	0
+opus_grid	old sequence, PDB relative	5	20	44	0	0
+opus_grid	no earlier PDB relative (clean + old sequence)	1	-20	0	0	
+opus_grid	no earlier PDB relative (clean + old sequence)	1	-10	0	0	
+opus_grid	no earlier PDB relative (clean + old sequence)	1	-5	0	0	
+opus_grid	no earlier PDB relative (clean + old sequence)	1	-3	0	0	
+opus_grid	no earlier PDB relative (clean + old sequence)	1	-2	0	0	
+opus_grid	no earlier PDB relative (clean + old sequence)	1	-1	0	0	
+opus_grid	no earlier PDB relative (clean + old sequence)	1	0	0	0	
+opus_grid	no earlier PDB relative (clean + old sequence)	1	1	0	0	
+opus_grid	no earlier PDB relative (clean + old sequence)	1	2	0	0	
+opus_grid	no earlier PDB relative (clean + old sequence)	1	3	0	0	
+opus_grid	no earlier PDB relative (clean + old sequence)	1	5	0	0	
+opus_grid	no earlier PDB relative (clean + old sequence)	1	10	0	0	
+opus_grid	no earlier PDB relative (clean + old sequence)	1	20	0	0	
+opus_grid	all recent	7	-20	42	2	0.04762
+opus_grid	all recent	7	-10	120	0	0
+opus_grid	all recent	7	-5	159	5	0.03145
+opus_grid	all recent	7	-3	177	22	0.1243
+opus_grid	all recent	7	-2	186	32	0.172
+opus_grid	all recent	7	-1	186	31	0.1667
+opus_grid	all recent	7	0	186	41	0.2204
+opus_grid	all recent	7	1	185	30	0.1622
+opus_grid	all recent	7	2	183	22	0.1202
+opus_grid	all recent	7	3	179	23	0.1285
+opus_grid	all recent	7	5	167	15	0.08982
+opus_grid	all recent	7	10	125	1	0.008
+opus_grid	all recent	7	20	73	0	0
+opus_list	famous	6	-20	53	3	0.0566
+opus_list	famous	6	-10	69	5	0.07246
+opus_list	famous	6	-5	94	10	0.1064
+opus_list	famous	6	-3	119	16	0.1345
+opus_list	famous	6	-2	134	22	0.1642
+opus_list	famous	6	-1	141	36	0.2553
+opus_list	famous	6	0	149	61	0.4094
+opus_list	famous	6	1	147	34	0.2313
+opus_list	famous	6	2	144	29	0.2014
+opus_list	famous	6	3	137	14	0.1022
+opus_list	famous	6	5	117	6	0.05128
+opus_list	famous	6	10	79	7	0.08861
+opus_list	famous	6	20	55	4	0.07273
+opus_list	clean	2	-20	9	0	0
+opus_list	clean	2	-10	19	0	0
+opus_list	clean	2	-5	29	0	0
+opus_list	clean	2	-3	33	0	0
+opus_list	clean	2	-2	35	0	0
+opus_list	clean	2	-1	37	2	0.05405
+opus_list	clean	2	0	38	2	0.05263
+opus_list	clean	2	1	38	1	0.02632
+opus_list	clean	2	2	38	0	0
+opus_list	clean	2	3	38	1	0.02632
+opus_list	clean	2	5	38	2	0.05263
+opus_list	clean	2	10	38	0	0
+opus_list	clean	2	20	38	2	0.05263
+opus_list	new sequence, PDB relative	6	-20	72	1	0.01389
+opus_list	new sequence, PDB relative	6	-10	92	0	0
+opus_list	new sequence, PDB relative	6	-5	130	11	0.08462
+opus_list	new sequence, PDB relative	6	-3	137	5	0.0365
+opus_list	new sequence, PDB relative	6	-2	143	6	0.04196
+opus_list	new sequence, PDB relative	6	-1	144	15	0.1042
+opus_list	new sequence, PDB relative	6	0	144	30	0.2083
+opus_list	new sequence, PDB relative	6	1	142	23	0.162
+opus_list	new sequence, PDB relative	6	2	137	18	0.1314
+opus_list	new sequence, PDB relative	6	3	136	10	0.07353
+opus_list	new sequence, PDB relative	6	5	113	0	0
+opus_list	new sequence, PDB relative	6	10	91	0	0
+opus_list	new sequence, PDB relative	6	20	72	1	0.01389
+opus_list	old sequence	15	-20	205	5	0.02439
+opus_list	old sequence	15	-10	223	5	0.02242
+opus_list	old sequence	15	-5	251	14	0.05578
+opus_list	old sequence	15	-3	272	20	0.07353
+opus_list	old sequence	15	-2	287	16	0.05575
+opus_list	old sequence	15	-1	300	35	0.1167
+opus_list	old sequence	15	0	303	41	0.1353
+opus_list	old sequence	15	1	301	32	0.1063
+opus_list	old sequence	15	2	296	33	0.1115
+opus_list	old sequence	15	3	290	19	0.06552
+opus_list	old sequence	15	5	271	11	0.04059
+opus_list	old sequence	15	10	228	4	0.01754
+opus_list	old sequence	15	20	180	5	0.02778
+opus_list	old sequence, PDB relative	23	-20	265	4	0.01509
+opus_list	old sequence, PDB relative	23	-10	355	19	0.05352
+opus_list	old sequence, PDB relative	23	-5	420	18	0.04286
+opus_list	old sequence, PDB relative	23	-3	449	29	0.06459
+opus_list	old sequence, PDB relative	23	-2	462	33	0.07143
+opus_list	old sequence, PDB relative	23	-1	470	31	0.06596
+opus_list	old sequence, PDB relative	23	0	479	46	0.09603
+opus_list	old sequence, PDB relative	23	1	476	45	0.09454
+opus_list	old sequence, PDB relative	23	2	467	41	0.08779
+opus_list	old sequence, PDB relative	23	3	457	30	0.06565
+opus_list	old sequence, PDB relative	23	5	435	16	0.03678
+opus_list	old sequence, PDB relative	23	10	354	2	0.00565
+opus_list	old sequence, PDB relative	23	20	241	6	0.0249
+opus_list	no earlier PDB relative (clean + old sequence)	17	-20	214	5	0.02336
+opus_list	no earlier PDB relative (clean + old sequence)	17	-10	242	5	0.02066
+opus_list	no earlier PDB relative (clean + old sequence)	17	-5	280	14	0.05
+opus_list	no earlier PDB relative (clean + old sequence)	17	-3	305	20	0.06557
+opus_list	no earlier PDB relative (clean + old sequence)	17	-2	322	16	0.04969
+opus_list	no earlier PDB relative (clean + old sequence)	17	-1	337	37	0.1098
+opus_list	no earlier PDB relative (clean + old sequence)	17	0	341	43	0.1261
+opus_list	no earlier PDB relative (clean + old sequence)	17	1	339	33	0.09735
+opus_list	no earlier PDB relative (clean + old sequence)	17	2	334	33	0.0988
+opus_list	no earlier PDB relative (clean + old sequence)	17	3	328	20	0.06098
+opus_list	no earlier PDB relative (clean + old sequence)	17	5	309	13	0.04207
+opus_list	no earlier PDB relative (clean + old sequence)	17	10	266	4	0.01504
+opus_list	no earlier PDB relative (clean + old sequence)	17	20	218	7	0.03211
+opus_list	all recent	46	-20	551	10	0.01815
+opus_list	all recent	46	-10	689	24	0.03483
+opus_list	all recent	46	-5	830	43	0.05181
+opus_list	all recent	46	-3	891	54	0.06061
+opus_list	all recent	46	-2	927	55	0.05933
+opus_list	all recent	46	-1	951	83	0.08728
+opus_list	all recent	46	0	964	119	0.1234
+opus_list	all recent	46	1	957	101	0.1055
+opus_list	all recent	46	2	938	92	0.09808
+opus_list	all recent	46	3	921	60	0.06515
+opus_list	all recent	46	5	857	29	0.03384
+opus_list	all recent	46	10	711	6	0.008439
+opus_list	all recent	46	20	531	14	0.02637
+gpt_grid	famous	4	-20	0	0	
+gpt_grid	famous	4	-10	1	1	1
+gpt_grid	famous	4	-5	1	0	0
+gpt_grid	famous	4	-3	3	0	0
+gpt_grid	famous	4	-2	3	0	0
+gpt_grid	famous	4	-1	3	0	0
+gpt_grid	famous	4	0	3	0	0
+gpt_grid	famous	4	1	3	0	0
+gpt_grid	famous	4	2	3	0	0
+gpt_grid	famous	4	3	3	0	0
+gpt_grid	famous	4	5	3	2	0.6667
+gpt_grid	famous	4	10	2	0	0
+gpt_grid	famous	4	20	2	0	0
+gpt_grid	new sequence, PDB relative	1	-20	0	0	
+gpt_grid	new sequence, PDB relative	1	-10	0	0	
+gpt_grid	new sequence, PDB relative	1	-5	0	0	
+gpt_grid	new sequence, PDB relative	1	-3	0	0	
+gpt_grid	new sequence, PDB relative	1	-2	0	0	
+gpt_grid	new sequence, PDB relative	1	-1	0	0	
+gpt_grid	new sequence, PDB relative	1	0	0	0	
+gpt_grid	new sequence, PDB relative	1	1	0	0	
+gpt_grid	new sequence, PDB relative	1	2	0	0	
+gpt_grid	new sequence, PDB relative	1	3	0	0	
+gpt_grid	new sequence, PDB relative	1	5	0	0	
+gpt_grid	new sequence, PDB relative	1	10	0	0	
+gpt_grid	new sequence, PDB relative	1	20	0	0	
+gpt_grid	old sequence, PDB relative	5	-20	0	0	
+gpt_grid	old sequence, PDB relative	5	-10	0	0	
+gpt_grid	old sequence, PDB relative	5	-5	0	0	
+gpt_grid	old sequence, PDB relative	5	-3	0	0	
+gpt_grid	old sequence, PDB relative	5	-2	0	0	
+gpt_grid	old sequence, PDB relative	5	-1	0	0	
+gpt_grid	old sequence, PDB relative	5	0	0	0	
+gpt_grid	old sequence, PDB relative	5	1	0	0	
+gpt_grid	old sequence, PDB relative	5	2	0	0	
+gpt_grid	old sequence, PDB relative	5	3	0	0	
+gpt_grid	old sequence, PDB relative	5	5	0	0	
+gpt_grid	old sequence, PDB relative	5	10	0	0	
+gpt_grid	old sequence, PDB relative	5	20	0	0	
+gpt_grid	all recent	6	-20	0	0	
+gpt_grid	all recent	6	-10	0	0	
+gpt_grid	all recent	6	-5	0	0	
+gpt_grid	all recent	6	-3	0	0	
+gpt_grid	all recent	6	-2	0	0	
+gpt_grid	all recent	6	-1	0	0	
+gpt_grid	all recent	6	0	0	0	
+gpt_grid	all recent	6	1	0	0	
+gpt_grid	all recent	6	2	0	0	
+gpt_grid	all recent	6	3	0	0	
+gpt_grid	all recent	6	5	0	0	
+gpt_grid	all recent	6	10	0	0	
+gpt_grid	all recent	6	20	0	0	
+hydrophobic	famous	6	-20	782	33	0.0422
+hydrophobic	famous	6	-10	1026	36	0.03509
+hydrophobic	famous	6	-5	1167	59	0.05056
+hydrophobic	famous	6	-3	1322	71	0.05371
+hydrophobic	famous	6	-2	1349	76	0.05634
+hydrophobic	famous	6	-1	1349	91	0.06746
+hydrophobic	famous	6	0	1374	149	0.1084
+hydrophobic	famous	6	1	1301	67	0.0515
+hydrophobic	famous	6	2	1231	60	0.04874
+hydrophobic	famous	6	3	1196	66	0.05518
+hydrophobic	famous	6	5	1089	50	0.04591
+hydrophobic	famous	6	10	813	32	0.03936
+hydrophobic	famous	6	20	610	27	0.04426
+hydrophobic	clean	2	-20	1052	12	0.01141
+hydrophobic	clean	2	-10	1311	17	0.01297
+hydrophobic	clean	2	-5	1462	40	0.02736
+hydrophobic	clean	2	-3	1479	60	0.04057
+hydrophobic	clean	2	-2	1496	42	0.02807
+hydrophobic	clean	2	-1	1549	45	0.02905
+hydrophobic	clean	2	0	1620	69	0.04259
+hydrophobic	clean	2	1	1620	38	0.02346
+hydrophobic	clean	2	2	1620	30	0.01852
+hydrophobic	clean	2	3	1620	51	0.03148
+hydrophobic	clean	2	5	1496	14	0.009358
+hydrophobic	clean	2	10	1292	28	0.02167
+hydrophobic	clean	2	20	1094	11	0.01005
+hydrophobic	new sequence, PDB relative	6	-20	2049	23	0.01122
+hydrophobic	new sequence, PDB relative	6	-10	2602	39	0.01499
+hydrophobic	new sequence, PDB relative	6	-5	2953	43	0.01456
+hydrophobic	new sequence, PDB relative	6	-3	3117	104	0.03337
+hydrophobic	new sequence, PDB relative	6	-2	3170	74	0.02334
+hydrophobic	new sequence, PDB relative	6	-1	3170	86	0.02713
+hydrophobic	new sequence, PDB relative	6	0	3268	195	0.05967
+hydrophobic	new sequence, PDB relative	6	1	3202	86	0.02686
+hydrophobic	new sequence, PDB relative	6	2	3088	67	0.0217
+hydrophobic	new sequence, PDB relative	6	3	3057	84	0.02748
+hydrophobic	new sequence, PDB relative	6	5	2837	46	0.01621
+hydrophobic	new sequence, PDB relative	6	10	2436	59	0.02422
+hydrophobic	new sequence, PDB relative	6	20	1876	26	0.01386
+hydrophobic	old sequence	15	-20	8257	272	0.03294
+hydrophobic	old sequence	15	-10	10220	294	0.02877
+hydrophobic	old sequence	15	-5	11263	334	0.02965
+hydrophobic	old sequence	15	-3	11670	439	0.03762
+hydrophobic	old sequence	15	-2	12052	444	0.03684
+hydrophobic	old sequence	15	-1	12238	460	0.03759
+hydrophobic	old sequence	15	0	12527	792	0.06322
+hydrophobic	old sequence	15	1	12302	429	0.03487
+hydrophobic	old sequence	15	2	12039	432	0.03588
+hydrophobic	old sequence	15	3	11929	429	0.03596
+hydrophobic	old sequence	15	5	11376	322	0.02831
+hydrophobic	old sequence	15	10	10419	339	0.03254
+hydrophobic	old sequence	15	20	8623	280	0.03247
+hydrophobic	old sequence, PDB relative	23	-20	9613	224	0.0233
+hydrophobic	old sequence, PDB relative	23	-10	12021	295	0.02454
+hydrophobic	old sequence, PDB relative	23	-5	13391	324	0.0242
+hydrophobic	old sequence, PDB relative	23	-3	13984	439	0.03139
+hydrophobic	old sequence, PDB relative	23	-2	14205	424	0.02985
+hydrophobic	old sequence, PDB relative	23	-1	14549	477	0.03279
+hydrophobic	old sequence, PDB relative	23	0	14911	891	0.05975
+hydrophobic	old sequence, PDB relative	23	1	14625	446	0.0305
+hydrophobic	old sequence, PDB relative	23	2	14289	450	0.03149
+hydrophobic	old sequence, PDB relative	23	3	13976	480	0.03434
+hydrophobic	old sequence, PDB relative	23	5	13331	317	0.02378
+hydrophobic	old sequence, PDB relative	23	10	11671	283	0.02425
+hydrophobic	old sequence, PDB relative	23	20	9007	259	0.02876
+hydrophobic	no earlier PDB relative (clean + old sequence)	17	-20	9309	284	0.03051
+hydrophobic	no earlier PDB relative (clean + old sequence)	17	-10	11531	311	0.02697
+hydrophobic	no earlier PDB relative (clean + old sequence)	17	-5	12725	374	0.02939
+hydrophobic	no earlier PDB relative (clean + old sequence)	17	-3	13149	499	0.03795
+hydrophobic	no earlier PDB relative (clean + old sequence)	17	-2	13548	486	0.03587
+hydrophobic	no earlier PDB relative (clean + old sequence)	17	-1	13787	505	0.03663
+hydrophobic	no earlier PDB relative (clean + old sequence)	17	0	14147	861	0.06086
+hydrophobic	no earlier PDB relative (clean + old sequence)	17	1	13922	467	0.03354
+hydrophobic	no earlier PDB relative (clean + old sequence)	17	2	13659	462	0.03382
+hydrophobic	no earlier PDB relative (clean + old sequence)	17	3	13549	480	0.03543
+hydrophobic	no earlier PDB relative (clean + old sequence)	17	5	12872	336	0.0261
+hydrophobic	no earlier PDB relative (clean + old sequence)	17	10	11711	367	0.03134
+hydrophobic	no earlier PDB relative (clean + old sequence)	17	20	9717	291	0.02995
+hydrophobic	all recent	46	-20	20971	531	0.02532
+hydrophobic	all recent	46	-10	26154	645	0.02466
+hydrophobic	all recent	46	-5	29069	741	0.02549
+hydrophobic	all recent	46	-3	30250	1042	0.03445
+hydrophobic	all recent	46	-2	30923	984	0.03182
+hydrophobic	all recent	46	-1	31506	1068	0.0339
+hydrophobic	all recent	46	0	32326	1947	0.06023
+hydrophobic	all recent	46	1	31749	999	0.03147
+hydrophobic	all recent	46	2	31036	979	0.03154
+hydrophobic	all recent	46	3	30582	1044	0.03414
+hydrophobic	all recent	46	5	29040	699	0.02407
+hydrophobic	all recent	46	10	25818	709	0.02746
+hydrophobic	all recent	46	20	20600	576	0.02796

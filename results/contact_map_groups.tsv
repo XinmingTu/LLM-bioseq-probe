@@ -1,0 +1,61 @@
+group	proteins	source	asked	scored	with_long_range_pred	long_pred	long_correct	long_precision	baseline	expected_random	expected_sep_matched	p_random	p_sep_matched	mean_protein_precision	esm2_650M_matched_precision	esm2_650M_matched_correct	esm2_3B_matched_precision	esm2_3B_matched_correct	P@L/5	P@L
+famous	6	fable_grid	6	6	6	255	128	0.502	0.05123	18.59	52.28	5.959e-88	5.088e-35	0.5445	0.6706	171	0.6824	174		
+famous	6	fable_list	6	6	6	243	139	0.572	0.05123	15.8	38.35	1.736e-111	2.617e-66	0.5139	0.7572	184	0.7284	177		
+famous	6	opus_grid	6	2	2	49	24	0.4898	0.06994	3.287	12.61	1.027e-16	6.618e-05	0.6065	0.8776	43	0.8776	43		
+famous	6	opus_list	6	6	6	149	61	0.4094	0.05123	10.18	20.67	2.728e-34	4.714e-21	0.3769	0.8322	124	0.8255	123		
+famous	6	gpt_grid	6	4	1	3	0	0	0.07707	0.2874	0.37	1	1	0	1	3	1	3		
+famous	6	hydrophobic	6	6	6	1374	149	0.1084	0.05123	66.4	69.7	1.59e-24	4.879e-20	0.1441						
+famous	6	esm2_650M	6	6					0.05123										0.9137	0.5367
+famous	6	esm2_3B	6	6					0.05123										0.8856	0.5593
+clean	2	fable_grid	2	2	1	4	1	0.25	0.02245	0.07243	0.1116	0.0705	0.1073	0.25	1	4	1	4		
+clean	2	fable_grid_run2	2	2	2	21	1	0.04762	0.02245	0.5851	0.6119	0.4485	0.465	0.0625	0.381	8	0.381	8		
+clean	2	fable_list	2	2	2	50	11	0.22	0.02245	1.047	1.353	4.373e-09	6.25e-08	0.1341	0.62	31	0.62	31		
+clean	2	opus_grid	2	0	0	0	0			0	0									
+clean	2	opus_list	2	2	2	38	2	0.05263	0.02245	1.003	0.758	0.2654	0.1747	0.05556	0.4737	18	0.4211	16		
+clean	2	gpt_grid	2	0	0	0	0			0	0									
+clean	2	hydrophobic	2	2	2	1620	69	0.04259	0.02245	32.52	33.88	8.866e-11	2.322e-08	0.06678						
+clean	2	esm2_650M	2	2					0.02245										0.4192	0.2551
+clean	2	esm2_3B	2	2					0.02245										0.4286	0.248
+new sequence, PDB relative	6	fable_grid	6	4	3	202	45	0.2228	0.02007	5.534	8.17	4.184e-30	6.718e-24	0.1765	0.5594	113	0.5693	115		
+new sequence, PDB relative	6	fable_list	6	6	6	209	49	0.2344	0.02357	5.628	11.94	1.339e-32	3.283e-20	0.188	0.6986	146	0.7368	154		
+new sequence, PDB relative	6	opus_grid	6	1	1	80	9	0.1125	0.02997	2.398	1.621	0.0005412	2.557e-05	0.1125	0.7375	59	0.7625	61		
+new sequence, PDB relative	6	opus_list	6	6	6	144	30	0.2083	0.02357	3.789	7.904	5.408e-19	7.284e-12	0.1551	0.7917	114	0.7847	113		
+new sequence, PDB relative	6	gpt_grid	6	1	0	0	0		0	0	0					0		0		
+new sequence, PDB relative	6	hydrophobic	6	6	6	3268	195	0.05967	0.02357	73.96	76.33	9.454e-41	2.483e-33	0.06341						
+new sequence, PDB relative	6	esm2_650M	6	6					0.02357										0.7432	0.3909
+new sequence, PDB relative	6	esm2_3B	6	6					0.02357										0.7414	0.4214
+old sequence	15	fable_grid	15	14	11	403	113	0.2804	0.03391	16.29	22.83	5.926e-63	2.732e-57	0.2586	0.8486	342	0.861	347		
+old sequence	15	fable_grid_run2	3	3	2	41	19	0.4634	0.03718	2.556	2.782	2.703e-13	1.436e-12	0.3393	0.9268	38	0.9512	39		
+old sequence	15	fable_list	15	15	15	586	81	0.1382	0.03318	20.46	24.49	4.933e-26	6.305e-23	0.15	0.698	409	0.7679	450		
+old sequence	15	opus_grid	15	1	0	0	0		0.033	0	0					0		0		
+old sequence	15	opus_list	15	15	15	303	41	0.1353	0.03318	9.594	11.09	5.527e-15	1.318e-13	0.1291	0.7294	221	0.802	243		
+old sequence	15	gpt_grid	15	0	0	0	0			0	0									
+old sequence	15	hydrophobic	15	15	15	1.253e+04	792	0.06322	0.03318	409.7	413.4	1.374e-81	1.236e-68	0.06606						
+old sequence	15	esm2_650M	15	15					0.03318										0.7156	0.5007
+old sequence	15	esm2_3B	15	15					0.03318										0.7451	0.5465
+old sequence, PDB relative	23	fable_grid	23	21	21	1160	300	0.2586	0.02866	33.64	59.67	6.015e-197	2.683e-136	0.2568	0.5914	686	0.5845	678		
+old sequence, PDB relative	23	fable_list	23	23	23	930	178	0.1914	0.02873	27.09	40.32	8.314e-91	7.919e-68	0.212	0.6742	627	0.6806	633		
+old sequence, PDB relative	23	opus_grid	23	5	3	106	32	0.3019	0.02983	3.743	5.671	8.137e-22	9.099e-19	0.135	0.8774	93	0.8491	90		
+old sequence, PDB relative	23	opus_list	23	23	23	479	46	0.09603	0.02873	15.05	20.59	2.912e-11	1.323e-07	0.1045	0.7996	383	0.8121	389		
+old sequence, PDB relative	23	gpt_grid	23	5	0	0	0		0.03725	0	0					0		0		
+old sequence, PDB relative	23	hydrophobic	23	23	23	1.491e+04	891	0.05975	0.02873	431.6	449	3.852e-108	5.664e-83	0.06815						
+old sequence, PDB relative	23	esm2_650M	23	23					0.02873										0.7731	0.4953
+old sequence, PDB relative	23	esm2_3B	23	23					0.02873										0.7887	0.5045
+no earlier PDB relative (clean + old sequence)	17	fable_grid	17	16	12	407	114	0.2801	0.03265	16.36	22.94	1.067e-63	6.554e-58	0.2579	0.8501	346	0.8624	351		
+no earlier PDB relative (clean + old sequence)	17	fable_grid_run2	5	5	4	62	20	0.3226	0.03106	3.142	3.394	5.174e-12	2.08e-11	0.2009	0.7419	46	0.7581	47		
+no earlier PDB relative (clean + old sequence)	17	fable_list	17	17	17	636	92	0.1447	0.03209	21.51	25.85	6.16e-32	3.364e-28	0.1481	0.6918	440	0.7563	481		
+no earlier PDB relative (clean + old sequence)	17	opus_grid	17	1	0	0	0		0.033	0	0					0		0		
+no earlier PDB relative (clean + old sequence)	17	opus_list	17	17	17	341	43	0.1261	0.03209	10.6	11.84	8.452e-15	8.028e-14	0.1205	0.7009	239	0.7595	259		
+no earlier PDB relative (clean + old sequence)	17	gpt_grid	17	0	0	0	0			0	0									
+no earlier PDB relative (clean + old sequence)	17	hydrophobic	17	17	17	1.415e+04	861	0.06086	0.03209	442.2	447.3	2.131e-90	3.159e-75	0.06614						
+no earlier PDB relative (clean + old sequence)	17	esm2_650M	17	17					0.03209										0.6808	0.4718
+no earlier PDB relative (clean + old sequence)	17	esm2_3B	17	17					0.03209										0.7079	0.5113
+all recent	46	fable_grid	46	41	36	1769	459	0.2595	0.02989	55.53	90.79	8.218e-286	4.267e-214	0.2505	0.6473	1145	0.6467	1144		
+all recent	46	fable_grid_run2	5	5	4	62	20	0.3226	0.03106	3.142	3.394	5.174e-12	2.08e-11	0.2009	0.7419	46	0.7581	47		
+all recent	46	fable_list	46	46	46	1775	319	0.1797	0.02962	54.22	78.11	1.973e-146	1.797e-111	0.1853	0.6834	1213	0.7144	1268		
+all recent	46	opus_grid	46	7	4	186	41	0.2204	0.03016	6.141	7.292	7.513e-23	2.763e-22	0.1294	0.8172	152	0.8118	151		
+all recent	46	opus_list	46	46	46	964	119	0.1234	0.02962	29.44	40.34	7.362e-38	9.304e-28	0.117	0.7635	736	0.7894	761		
+all recent	46	gpt_grid	46	6	0	0	0		0.02772	0	0					0		0		
+all recent	46	hydrophobic	46	46	46	3.233e+04	1947	0.06023	0.02962	947.8	972.6	2.596e-231	2.634e-184	0.06679						
+all recent	46	esm2_650M	46	46					0.02962										0.7351	0.473
+all recent	46	esm2_3B	46	46					0.02962										0.7527	0.4962

@@ -19,3 +19,6 @@ results/probe_scored.tsv
 results/*.log
 data/small_family_sequences.bin*.tsv
 data/small_family_tried.*.txt
+
+# contact-map set: API cache and mmCIF files (scripts/data/08_contact_map_set.py)
+data/contact_map/
