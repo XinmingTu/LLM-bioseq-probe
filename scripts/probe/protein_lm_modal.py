@@ -20,6 +20,7 @@ image = (
     .add_local_file("data/confirm_sequences.tsv", "/work/data/confirm_sequences.tsv")
     .add_local_file("data/sequences_pilot.tsv", "/work/data/sequences_pilot.tsv")
     .add_local_file("data/small_family_sequences.tsv", "/work/data/small_family_sequences.tsv")
+    .add_local_file("data/d_set_sequences.tsv", "/work/data/d_set_sequences.tsv")
 )
 
 
@@ -44,6 +45,7 @@ progen3_image = (  # Profluent's image: torch 2.5.1, flash-attn and megablocks b
     .add_local_file("data/confirm_sequences.tsv", "/work/data/confirm_sequences.tsv")
     .add_local_file("data/sequences_pilot.tsv", "/work/data/sequences_pilot.tsv")
     .add_local_file("data/small_family_sequences.tsv", "/work/data/small_family_sequences.tsv")
+    .add_local_file("data/d_set_sequences.tsv", "/work/data/d_set_sequences.tsv")
 )
 
 

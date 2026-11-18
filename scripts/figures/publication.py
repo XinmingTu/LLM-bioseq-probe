@@ -428,3 +428,36 @@ family_size_figure([*EARLIER, "claude-opus-5-5", "claude-fable-5-2", *PLM5], "fi
                    SETS5 + "\nThin lines: earlier Claude models; grey: GPT-6.2 Sol and Astra, GPT-6.1 Sol, GPT-6 Astra, GPT-5.5 and Gemini 4 Carbon.", (5.2, 3.4), 1.25,
                    faint=EARLIER, background=("gpt-6.2-sol", "gpt-6.2-astra", "gpt-6.1-sol", "gpt-6-astra", "gpt-5.5", "gemini-4-carbon"), background_label="GPT and Gemini")
 print("figures/fig1_protein, fig2_dna, fig3_known_vs_obscure, fig4_recall, fig5_family_size, fig6_protein_lm, fig7_by_position, fig8_runs")
+
+# Fig 9: proteins first public after the assumed training cutoff (the D set) ------------------
+dset = pd.read_csv("results/d_set_summary.tsv", sep="\t")
+order9 = ["Claude Fable 5.2", "Claude Opus 5.5", "ProGen3-3B", "ProtGPT3-10B", "GPT-6.2 Sol"]
+dset = dset.set_index("model").reindex([m for m in order9 if m in set(dset.model)])
+fig, ax = plt.subplots(figsize=(4.6, 0.42 * len(dset) + 1.1))
+for i, (m, r) in enumerate(dset.iterrows()):
+    y, col, mk = -i, color(m), ("D" if m.startswith("Pro") else "o")
+    if m in HEROES:
+        ax.axhspan(y - 0.45, y + 0.45, color=ACCENT, alpha=0.09, lw=0, zorder=0)
+    ax.plot([r.D_gap, r.main_same_families_gap], [y, y], color=LIGHT_GREY, lw=1.2, zorder=1)
+    ax.plot([r.D_lo, r.D_hi], [y, y], color=col, lw=1.6, solid_capstyle="round", zorder=2)
+    ax.plot(r.main_same_families_gap, y, mk, ms=4.6, color="white", mec=col, mew=1.1, zorder=3)
+    ax.plot(r.D_gap, y, mk, ms=4.8, color=col, mec=col, zorder=4)
+    ax.text(r.D_lo - 1.2, y, f"{r.D_gap:+.1f}", va="center", ha="right", fontsize=6.6, color=INK if m in HEROES else MUTED,
+            fontweight="bold" if m in HEROES else "normal", bbox=None if m in HEROES else {"fc": "white", "ec": "none", "pad": 0.3})
+ax.set_yticks([-i for i in range(len(dset))], list(dset.index))
+for tl in ax.get_yticklabels():
+    if tl.get_text() in HEROES:
+        tl.set_fontweight("bold")
+    if tl.get_text().startswith("Pro"):
+        tl.set_color(PROTEIN_LM)
+ax.axvline(0, color=MUTED, lw=0.6)
+ax.set_xlim(-13, 50)
+ax.set_ylim(-len(dset) - 0.5, 0.6)
+ax.set_xlabel("Next amino acid: real minus shuffled accuracy (percentage points)")
+ax.legend(handles=[Line2D([], [], marker="o", ls="", color=MUTED, ms=4.6, label="56 proteins first public in August 2026, no earlier relative at 50%+"),
+                   Line2D([], [], marker="o", ls="", color="white", mec=MUTED, mew=1.1, ms=4.6, label="the same 31 families in the main set")],
+          loc="lower right", handletextpad=0.3, fontsize=6)
+header(fig, ax, "The latest Claude models predict proteins published after their training cutoff",
+       "D set (Leo Tianlai Chen): RefSeq proteins first public 2 to 27 August 2026, after the assumed 1 July cutoff; closest earlier\n"
+       "relative 34% to 49% identical. Mean over 31 families; bars: 95% bootstrap CI. Both protein language models drop as much from the main set.")
+save(fig, "fig9_after_cutoff")
