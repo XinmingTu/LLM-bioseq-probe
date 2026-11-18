@@ -25,6 +25,7 @@ RUNS = {  # local working directory -> what it holds
     "plm_pilot": "ProtGPT3-10B on the pilot set",
     "no_instruction": "protein subset, the sequence alone with no instruction",
     "fable_repeat": "Claude Fable 5.2, 400 main-set questions asked again",
+    "raw_logprobs": "open-weight models, top 5 next-token log-probabilities on the main set",
     "small_families": "protein small-family set (20 to 300 proteins per family), chat prompt",
     "plm_small": "ProtGPT3-10B on the small-family set",
 }
