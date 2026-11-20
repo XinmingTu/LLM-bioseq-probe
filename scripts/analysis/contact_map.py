@@ -43,7 +43,7 @@ import pandas as pd
 from matplotlib.colors import ListedColormap
 from scipy.stats import hypergeom
 
-from bioseq_probe.figstyle import INK, LIGHT_GREY, MUTED, PROTEIN_LM, color
+from bioseq_probe.figstyle import INK, LIGHT_GREY, MUTED, PROTEIN_LM, color, save
 
 OUT = Path("results/contact_map")
 TRUTH = json.loads((OUT / "truth.json").read_text())
@@ -433,6 +433,7 @@ if len(esm):
              fontsize=5.6, color=MUTED, ha="left", va="top", linespacing=1.4)
     fig.tight_layout(rect=(0, 0, 1, 0.97))
     fig.savefig("figures/contact_map_fable_vs_esm.png", bbox_inches="tight", pad_inches=0.08)
+    save(fig, "fig10_contact_maps")  # the blog copy, with a theme-following SVG
     plt.close(fig)
 
 # (b) True vs Fable vs ESM-2 maps for proteins with no earlier PDB relative: every clean one, then
